@@ -1,0 +1,1 @@
+t.s = 0; for_each(t.e, v.list, {t.s = t.s + 1;}); return t.s;

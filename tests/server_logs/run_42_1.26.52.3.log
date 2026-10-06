@@ -1,0 +1,52 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-03 07:55:25:686 INFO] Starting Server
+[2026-10-03 07:55:25:686 INFO] Version: 1.26.52.3
+[2026-10-03 07:55:25:686 INFO] Session ID: b4c1c324-e195-48c5-9899-1cf48180e9e3
+[2026-10-03 07:55:25:686 INFO] Build ID: 51798919
+[2026-10-03 07:55:25:686 INFO] Branch: r/26_u5
+[2026-10-03 07:55:25:686 INFO] Commit ID: 54116bb5ee0b7aee0b5591efbcc8bc3cf64f168a
+[2026-10-03 07:55:25:686 INFO] Configuration: Publish
+[2026-10-03 07:55:25:686 INFO] Contents of server.properties: {}
+[2026-10-03 07:55:25:686 INFO] Level Name: probe4_run46
+[2026-10-03 07:55:25:686 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-10-03 07:55:25:688 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-03 07:55:25:688 INFO] Game mode: 0 Survival
+[2026-10-03 07:55:25:688 INFO] Difficulty: 1 EASY
+[2026-10-03 07:55:25:691 INFO] Content logging to console is enabled.
+[2026-10-03 07:55:25:693 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-03 07:55:26:301 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-03_07-55-26
+[2026-10-03 07:55:26:302 INFO] Opening level 'worlds/probe4_run46/db'
+[2026-10-03 07:55:26:342 INFO] Pack Stack - [00] probe (id: 06b61a44-5161-49b7-b85b-e17417bdf6bf, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-03 07:55:26:574 INFO] Signed in to signaling service successfully
+[2026-10-03 07:55:26:591 ERROR] [Animation] probe4_run46 | development_behavior_packs/probe_bp/animation_controllers/probe.json | Error: ill-formatted/missing "format_version" field. Skipping.
+
+[2026-10-03 07:55:27:582 INFO] IPv4 supported, port: 29142: Used for gameplay
+[2026-10-03 07:55:27:582 INFO] IPv6 supported, port: 29143: Used for gameplay
+[2026-10-03 07:55:27:660 INFO] Server started.
+[2026-10-03 07:55:27:660 ERROR] ================ TRANSPORT TYPE ERROR  ===================
+[2026-10-03 07:55:27:660 ERROR] Your current connection type is not set to NetherNet. In this release, NetherNet is the only supported transport type.
+[2026-10-03 07:55:27:660 ERROR] Players will not be able to connect to your game without NetherNet.
+[2026-10-03 07:55:27:660 ERROR] 
+[2026-10-03 07:55:27:660 ERROR] To switch, set 'transport=nethernet' in server.properties.
+[2026-10-03 07:55:27:660 ERROR] 
+[2026-10-03 07:55:27:660 ERROR] For more information, please reference the included bedrock_server_how_to.html file.
+[2026-10-03 07:55:27:660 ERROR] =======================================================
+[2026-10-03 07:55:27:660 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-03 07:55:27:660 INFO] Server Telemetry is currently not enabled. 
+[2026-10-03 07:55:27:660 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-03 07:55:27:660 INFO] 
+[2026-10-03 07:55:27:660 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-03 07:55:27:660 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-03 07:55:27:660 INFO] ======================================================
+[2026-10-03 07:55:30:826 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-03 07:55:33:674 INFO] Object successfully summoned
+[2026-10-03 07:55:41:683 INFO] Server stop requested.
+[2026-10-03 07:55:41:733 INFO] Stopping server...
+Quit correctly

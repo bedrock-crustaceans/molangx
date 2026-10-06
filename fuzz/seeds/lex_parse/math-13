@@ -1,0 +1,1 @@
+math.clamp(math.lerp(v.a, v.b, 0.5), 0, math.pi) * math.ease_in_quad(0, 1, v.t)

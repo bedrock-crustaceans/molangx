@@ -1,0 +1,55 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-01 18:21:49:389 INFO] Starting Server
+[2026-10-01 18:21:49:389 INFO] Version: 1.26.36.1
+[2026-10-01 18:21:49:389 INFO] Session ID: 81c6af76-890f-43cd-85ea-5ac63126711f
+[2026-10-01 18:21:49:389 INFO] Build ID: 48444137
+[2026-10-01 18:21:49:389 INFO] Branch: r/26_u3
+[2026-10-01 18:21:49:389 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-01 18:21:49:389 INFO] Configuration: Publish
+[2026-10-01 18:21:49:389 INFO] Level Name: probe3_run17
+[2026-10-01 18:21:49:397 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-01 18:21:49:397 INFO] Game mode: 0 Survival
+[2026-10-01 18:21:49:397 INFO] Difficulty: 1 EASY
+[2026-10-01 18:21:49:398 INFO] Content logging to console is enabled.
+[2026-10-01 18:21:49:399 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-01 18:21:49:940 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-01_18-21-49
+[2026-10-01 18:21:49:940 INFO] Opening level 'worlds/probe3_run17/db'
+[2026-10-01 18:21:49:956 INFO] Pack Stack - [00] probe (id: 6481fe55-5845-4a76-9f14-f09f554a3753, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-01 18:21:50:086 ERROR] [Molang] probe3_run17 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.y15 = 2; v.r = q.log(v.y15) ?? 7; v.r == 2 ? v.x15k_ok : (v.r == 7 ? v.x15k_handler : v.x15k_other); | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-01 18:21:50:086 ERROR] [Molang] probe3_run17 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.r = q.log(v.x15_never_set_arg) ?? 7; v.r == 7 ? v.x15_outer_handler : (v.r == 0 ? v.x15_arg_zero : v.x15_other); | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-01 18:21:50:659 INFO] IPv4 supported, port: 29132: Used for gameplay
+[2026-10-01 18:21:50:659 INFO] IPv6 supported, port: 29133: Used for gameplay
+[2026-10-01 18:21:50:686 INFO] Server started.
+[2026-10-01 18:21:50:686 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-01 18:21:50:686 INFO] Server Telemetry is currently not enabled. 
+[2026-10-01 18:21:50:686 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-01 18:21:50:686 INFO] 
+[2026-10-01 18:21:50:686 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-01 18:21:50:686 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-01 18:21:50:686 INFO] ======================================================
+[2026-10-01 18:21:52:004 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-01 18:21:56:849 INFO] Object successfully summoned
+[2026-10-01 18:21:56:865 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-01 18:21:56:865 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-01 18:21:56:865 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-01 18:21:56:865 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x15k_ok'
+
+[2026-10-01 18:21:56:865 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x15i_inner_handler'
+
+[2026-10-01 18:21:56:865 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.m15a_before_x15'
+
+[2026-10-01 18:22:03:869 INFO] Server stop requested.
+[2026-10-01 18:22:03:916 INFO] Stopping server...
+Quit correctly

@@ -1,0 +1,40 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-01 08:46:24:315 INFO] Starting Server
+[2026-10-01 08:46:24:315 INFO] Version: 1.26.36.1
+[2026-10-01 08:46:24:315 INFO] Session ID: 7d296359-dbb3-46d8-b593-3af0666e114f
+[2026-10-01 08:46:24:315 INFO] Build ID: 48444137
+[2026-10-01 08:46:24:315 INFO] Branch: r/26_u3
+[2026-10-01 08:46:24:315 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-01 08:46:24:315 INFO] Configuration: Publish
+[2026-10-01 08:46:24:315 INFO] Level Name: probe
+[2026-10-01 08:46:24:316 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-01 08:46:24:316 INFO] Game mode: 0 Survival
+[2026-10-01 08:46:24:316 INFO] Difficulty: 1 EASY
+[2026-10-01 08:46:24:317 INFO] Content logging to console is enabled.
+[2026-10-01 08:46:24:318 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-01 08:46:24:717 INFO] Opening level 'worlds/probe/db'
+[2026-10-01 08:46:24:729 INFO] Pack Stack - [00] probe (id: 6a1f0c2e-3b4d-4e5f-8a9b-0c1d2e3f4a5b, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-01 08:46:25:426 INFO] IPv4 supported, port: 39132: Used for gameplay
+[2026-10-01 08:46:25:426 INFO] IPv6 supported, port: 39133: Used for gameplay
+[2026-10-01 08:46:25:454 INFO] Server started.
+[2026-10-01 08:46:25:454 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-01 08:46:25:454 INFO] Server Telemetry is currently not enabled. 
+[2026-10-01 08:46:25:454 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-01 08:46:25:454 INFO] 
+[2026-10-01 08:46:25:454 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-01 08:46:25:454 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-01 08:46:25:454 INFO] ======================================================
+[2026-10-01 08:46:49:496 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-01 08:46:57:357 INFO] Object successfully summoned
+[2026-10-01 08:46:57:367 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.missing_never_set'
+
+[2026-10-01 08:47:05:322 INFO] Server stop requested.
+[2026-10-01 08:47:05:367 INFO] Stopping server...
+Quit correctly

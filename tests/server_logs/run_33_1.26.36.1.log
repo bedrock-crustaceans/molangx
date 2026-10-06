@@ -1,0 +1,57 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-03 07:49:04:245 INFO] Starting Server
+[2026-10-03 07:49:04:245 INFO] Version: 1.26.36.1
+[2026-10-03 07:49:04:245 INFO] Session ID: a32b69af-83b9-46e0-8de4-241cf9a05e44
+[2026-10-03 07:49:04:245 INFO] Build ID: 48444137
+[2026-10-03 07:49:04:245 INFO] Branch: r/26_u3
+[2026-10-03 07:49:04:245 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-03 07:49:04:245 INFO] Configuration: Publish
+[2026-10-03 07:49:04:245 INFO] Level Name: probe4_run32
+[2026-10-03 07:49:04:246 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-03 07:49:04:246 INFO] Game mode: 0 Survival
+[2026-10-03 07:49:04:246 INFO] Difficulty: 1 EASY
+[2026-10-03 07:49:04:247 INFO] Content logging to console is enabled.
+[2026-10-03 07:49:04:248 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-03 07:49:04:893 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-03_07-49-04
+[2026-10-03 07:49:04:894 INFO] Opening level 'worlds/probe4_run32/db'
+[2026-10-03 07:49:04:916 INFO] Pack Stack - [00] probe (id: fdfe1c77-21ff-4aab-80a1-a9ee109dfca7, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-03 07:49:05:119 ERROR] [Molang] probe4_run32 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.g = 0; v.b = 0; loop(1, { v.g = v.g + 1; v.g > 8 ? {return 0;} : 0; v.b = (v.r1_c_never ?? {break;}) ?? 2; }); v.r1_never_set; | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-03 07:49:06:204 INFO] IPv4 supported, port: 29142: Used for gameplay
+[2026-10-03 07:49:06:204 INFO] IPv6 supported, port: 29143: Used for gameplay
+[2026-10-03 07:49:06:262 INFO] Server started.
+[2026-10-03 07:49:06:263 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-03 07:49:06:263 INFO] Server Telemetry is currently not enabled. 
+[2026-10-03 07:49:06:263 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-03 07:49:06:263 INFO] 
+[2026-10-03 07:49:06:263 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-03 07:49:06:263 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-03 07:49:06:263 INFO] ======================================================
+[2026-10-03 07:49:09:514 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-03 07:49:12:225 INFO] Object successfully summoned
+[2026-10-03 07:49:12:265 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-03 07:49:12:265 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-03 07:49:12:265 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-03 07:49:12:340 INFO] Package: com.mojang.minecraft.dedicatedserver
+Version: 1.26.36.1
+OS: Linux
+Server start: 2026-10-03 07:49:04 CEST
+Dmp timestamp: 2026-10-03 07:49:12 CEST
+Upload Date: 2026-10-03 07:49:12 CEST
+Session ID: a32b69af-83b9-46e0-8de4-241cf9a05e44
+Commit hash: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+Build id: 48444137
+CrashReporter Key: 8c4937c1-64cb-3532-a8dc-1deb28f67293
+
+Crash
+[2026-10-03 07:49:12:340 INFO] 

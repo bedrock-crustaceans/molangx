@@ -1,0 +1,127 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-01 17:14:56:735 INFO] Starting Server
+[2026-10-01 17:14:56:735 INFO] Version: 1.26.36.1
+[2026-10-01 17:14:56:735 INFO] Session ID: 7b2e5ca0-e75d-4767-ad00-4b3812676aba
+[2026-10-01 17:14:56:735 INFO] Build ID: 48444137
+[2026-10-01 17:14:56:735 INFO] Branch: r/26_u3
+[2026-10-01 17:14:56:735 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-01 17:14:56:735 INFO] Configuration: Publish
+[2026-10-01 17:14:56:735 INFO] Level Name: probe2_run4
+[2026-10-01 17:14:56:737 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-01 17:14:56:737 INFO] Game mode: 0 Survival
+[2026-10-01 17:14:56:737 INFO] Difficulty: 1 EASY
+[2026-10-01 17:14:56:737 INFO] Content logging to console is enabled.
+[2026-10-01 17:14:56:739 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-01 17:14:57:114 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-01_17-14-57
+[2026-10-01 17:14:57:115 INFO] Opening level 'worlds/probe2_run4/db'
+[2026-10-01 17:14:57:127 INFO] Pack Stack - [00] probe (id: 6f7fbc3c-0c41-4cb8-a4b0-4becf9e48971, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-01 17:14:57:231 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | t.st = 1; v.x = 0; v.y = 7; v.a = 0; v.y = [v.x = 1;]; t.st = 2; v.x == 1 ? (v.y == 7 ? v.p01_a1_b7 : (v.y == 0 ? v.p01_a1_b0 : (v.y == 1 ? v.p01_a1_b1 : (v.y == 2 ? v.p01_a1_b2 : v.p01_a1_bnone)))) : (v.x == 0 ? (v.y == 7 ? v.p01_a0_b7 : (v.y == 0 ? v.p01_a0_b0 : (v.y == 1 ? v.p01_a0_b1 : (v.y == 2 ? v.p01_a0_b2 : v.p01_a0_bnone)))) : v.p01_anone); | Malformed Semicolon ';' expression. It has 0 children but should have between 1 and 18446744073709551615
+
+[2026-10-01 17:14:57:231 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | t.st = 1; v.x = 0; v.y = 7; v.a = 0; [v.x = 1;]; t.st = 2; v.x == 1 ? (v.y == 7 ? v.p02_a1_b7 : (v.y == 0 ? v.p02_a1_b0 : (v.y == 1 ? v.p02_a1_b1 : (v.y == 2 ? v.p02_a1_b2 : v.p02_a1_bnone)))) : (v.x == 0 ? (v.y == 7 ? v.p02_a0_b7 : (v.y == 0 ? v.p02_a0_b0 : (v.y == 1 ? v.p02_a0_b1 : (v.y == 2 ? v.p02_a0_b2 : v.p02_a0_bnone)))) : v.p02_anone); | Malformed Semicolon ';' expression. It has 0 children but should have between 1 and 18446744073709551615
+
+[2026-10-01 17:14:57:231 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | t.st = 1; v.x = 0; v.y = 7; v.a = 0; v.y = q.is_baby((v.a = 1;)); t.st = 2; v.a == 1 ? (v.y == 7 ? v.p04_a1_b7 : (v.y == 0 ? v.p04_a1_b0 : (v.y == 1 ? v.p04_a1_b1 : (v.y == 2 ? v.p04_a1_b2 : v.p04_a1_bnone)))) : (v.a == 0 ? (v.y == 7 ? v.p04_a0_b7 : (v.y == 0 ? v.p04_a0_b0 : (v.y == 1 ? v.p04_a0_b1 : (v.y == 2 ? v.p04_a0_b2 : v.p04_a0_bnone)))) : v.p04_anone); | Malformed Semicolon ';' expression. It has 0 children but should have between 1 and 18446744073709551615
+
+[2026-10-01 17:14:57:231 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | t.st = 1; v.x = 0; v.y = 7; v.a = 0; v.x ? break : 1; t.st = 2; v.x == 1 ? (v.y == 7 ? v.p07_a1_b7 : (v.y == 0 ? v.p07_a1_b0 : (v.y == 1 ? v.p07_a1_b1 : (v.y == 2 ? v.p07_a1_b2 : v.p07_a1_bnone)))) : (v.x == 0 ? (v.y == 7 ? v.p07_a0_b7 : (v.y == 0 ? v.p07_a0_b0 : (v.y == 1 ? v.p07_a0_b1 : (v.y == 2 ? v.p07_a0_b2 : v.p07_a0_bnone)))) : v.p07_anone); | Error: unreachable statements after Break 'break'.
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | t.st = 1; v.x = 1; v.y = 7; v.a = 0; v.x ? break : 1; t.st = 2; v.x == 1 ? (v.y == 7 ? v.p08_a1_b7 : (v.y == 0 ? v.p08_a1_b0 : (v.y == 1 ? v.p08_a1_b1 : (v.y == 2 ? v.p08_a1_b2 : v.p08_a1_bnone)))) : (v.x == 0 ? (v.y == 7 ? v.p08_a0_b7 : (v.y == 0 ? v.p08_a0_b0 : (v.y == 1 ? v.p08_a0_b1 : (v.y == 2 ? v.p08_a0_b2 : v.p08_a0_bnone)))) : v.p08_anone); | Error: unreachable statements after Break 'break'.
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | t.st = 1; v.x = 0; v.y = 7; v.a = 0; loop(2, {v.x ? break : continue;}); t.st = 2; v.x == 1 ? (v.y == 7 ? v.p10_a1_b7 : (v.y == 0 ? v.p10_a1_b0 : (v.y == 1 ? v.p10_a1_b1 : (v.y == 2 ? v.p10_a1_b2 : v.p10_a1_bnone)))) : (v.x == 0 ? (v.y == 7 ? v.p10_a0_b7 : (v.y == 0 ? v.p10_a0_b0 : (v.y == 1 ? v.p10_a0_b1 : (v.y == 2 ? v.p10_a0_b2 : v.p10_a0_bnone)))) : v.p10_anone); | Error: unreachable statements after Break 'break'.
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | t.st = 1; v.x = 1; v.y = 7; v.a = 0; loop(2, {v.x ? break : continue;}); t.st = 2; v.x == 1 ? (v.y == 7 ? v.p11_a1_b7 : (v.y == 0 ? v.p11_a1_b0 : (v.y == 1 ? v.p11_a1_b1 : (v.y == 2 ? v.p11_a1_b2 : v.p11_a1_bnone)))) : (v.x == 0 ? (v.y == 7 ? v.p11_a0_b7 : (v.y == 0 ? v.p11_a0_b0 : (v.y == 1 ? v.p11_a0_b1 : (v.y == 2 ? v.p11_a0_b2 : v.p11_a0_bnone)))) : v.p11_anone); | Error: unreachable statements after Break 'break'.
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.p1 = q.; v.p40_loaded; | unrecognized token: q.; v.p40_loaded;
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.p1 = query.; v.p41_loaded; | unrecognized token: query.; v.p41_loaded;
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.p1 = q.1; v.p42_loaded; | unrecognized token: q.1; v.p42_loaded;
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.y = [v.x = 1;]; | Malformed Semicolon ';' expression. It has 0 children but should have between 1 and 18446744073709551615
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | [v.x = 1;]; | Malformed Semicolon ';' expression. It has 0 children but should have between 1 and 18446744073709551615
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.y = q.is_baby((v.a = 1;)); | Malformed Semicolon ';' expression. It has 0 children but should have between 1 and 18446744073709551615
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.x ? break : 1; | Error: unreachable statements after Break 'break'.
+
+[2026-10-01 17:14:57:232 ERROR] [Molang] probe2_run4 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | loop(2, {v.x ? break : continue;}); | Error: unreachable statements after Break 'break'.
+
+[2026-10-01 17:14:57:776 INFO] IPv4 supported, port: 29132: Used for gameplay
+[2026-10-01 17:14:57:776 INFO] IPv6 supported, port: 29133: Used for gameplay
+[2026-10-01 17:14:57:804 INFO] Server started.
+[2026-10-01 17:14:57:804 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-01 17:14:57:804 INFO] Server Telemetry is currently not enabled. 
+[2026-10-01 17:14:57:804 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-01 17:14:57:804 INFO] 
+[2026-10-01 17:14:57:804 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-01 17:14:57:804 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-01 17:14:57:804 INFO] ======================================================
+[2026-10-01 17:14:58:163 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-01 17:15:00:260 INFO] Object successfully summoned
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.p00_init'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w01_not_run'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w02_not_run'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.p03_a1_b7'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w03_completed'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w04_not_run'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.p05_a1_b1'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w05_completed'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.p06_a1_b0'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w06_completed'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.p07_a0_b7'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w07_completed'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w08_stopped_inside'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.p09_a0_b7'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w09_stopped_inside'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.p10_a0_b7'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w10_completed'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.p11_a1_b7'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w11_completed'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.p99_marker_end'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.q01_after'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.q02_after'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.q03_after'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.q04_after'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.q05_after'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.q06_after'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.q07_after'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.q08_after'
+
+[2026-10-01 17:15:00:275 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.q09_after'
+
+[2026-10-01 17:15:05:519 INFO] Server stop requested.
+[2026-10-01 17:15:05:568 INFO] Stopping server...
+Quit correctly

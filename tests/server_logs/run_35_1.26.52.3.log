@@ -1,0 +1,62 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-03 08:20:14:013 INFO] Starting Server
+[2026-10-03 08:20:14:013 INFO] Version: 1.26.52.3
+[2026-10-03 08:20:14:013 INFO] Session ID: 1681c846-e277-4b61-b122-bba697d1ea75
+[2026-10-03 08:20:14:013 INFO] Build ID: 51798919
+[2026-10-03 08:20:14:013 INFO] Branch: r/26_u5
+[2026-10-03 08:20:14:013 INFO] Commit ID: 54116bb5ee0b7aee0b5591efbcc8bc3cf64f168a
+[2026-10-03 08:20:14:013 INFO] Configuration: Publish
+[2026-10-03 08:20:14:013 INFO] Contents of server.properties: {}
+[2026-10-03 08:20:14:014 INFO] Level Name: probe4_run34
+[2026-10-03 08:20:14:014 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-10-03 08:20:14:015 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-03 08:20:14:015 INFO] Game mode: 0 Survival
+[2026-10-03 08:20:14:015 INFO] Difficulty: 1 EASY
+[2026-10-03 08:20:14:018 INFO] Content logging to console is enabled.
+[2026-10-03 08:20:14:019 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-03 08:20:14:598 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-03_08-20-14
+[2026-10-03 08:20:14:599 INFO] Opening level 'worlds/probe4_run34/db'
+[2026-10-03 08:20:14:638 INFO] Pack Stack - [00] probe (id: 53bd52d9-fe76-4ea0-a19f-0db7cd2897d8, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-03 08:20:14:858 INFO] Signed in to signaling service successfully
+[2026-10-03 08:20:14:876 ERROR] [Molang] probe4_run34 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.x0 ? break : v.b02_kept | Error: unreachable statements after Break 'break'.
+
+[2026-10-03 08:20:15:748 INFO] IPv4 supported, port: 29142: Used for gameplay
+[2026-10-03 08:20:15:748 INFO] IPv6 supported, port: 29143: Used for gameplay
+[2026-10-03 08:20:15:789 INFO] Server started.
+[2026-10-03 08:20:15:789 ERROR] ================ TRANSPORT TYPE ERROR  ===================
+[2026-10-03 08:20:15:789 ERROR] Your current connection type is not set to NetherNet. In this release, NetherNet is the only supported transport type.
+[2026-10-03 08:20:15:789 ERROR] Players will not be able to connect to your game without NetherNet.
+[2026-10-03 08:20:15:789 ERROR] 
+[2026-10-03 08:20:15:789 ERROR] To switch, set 'transport=nethernet' in server.properties.
+[2026-10-03 08:20:15:789 ERROR] 
+[2026-10-03 08:20:15:789 ERROR] For more information, please reference the included bedrock_server_how_to.html file.
+[2026-10-03 08:20:15:789 ERROR] =======================================================
+[2026-10-03 08:20:15:789 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-03 08:20:15:789 INFO] Server Telemetry is currently not enabled. 
+[2026-10-03 08:20:15:789 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-03 08:20:15:789 INFO] 
+[2026-10-03 08:20:15:789 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-03 08:20:15:789 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-03 08:20:15:789 INFO] ======================================================
+[2026-10-03 08:20:18:127 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-03 08:20:21:004 INFO] Object successfully summoned
+[2026-10-03 08:20:21:028 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-03 08:20:21:028 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-03 08:20:21:028 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-03 08:20:21:028 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.b01_set'
+
+[2026-10-03 08:20:21:028 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.b99_marker_end'
+
+[2026-10-03 08:20:29:018 INFO] Server stop requested.
+[2026-10-03 08:20:29:067 INFO] Stopping server...
+Quit correctly

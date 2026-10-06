@@ -1,0 +1,59 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-01 18:47:29:250 INFO] Starting Server
+[2026-10-01 18:47:29:250 INFO] Version: 1.26.36.1
+[2026-10-01 18:47:29:250 INFO] Session ID: 2b18e554-19bc-4f02-b758-172eff671fa9
+[2026-10-01 18:47:29:250 INFO] Build ID: 48444137
+[2026-10-01 18:47:29:250 INFO] Branch: r/26_u3
+[2026-10-01 18:47:29:250 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-01 18:47:29:250 INFO] Configuration: Publish
+[2026-10-01 18:47:29:250 INFO] Level Name: probe3_run20
+[2026-10-01 18:47:29:250 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-01 18:47:29:251 INFO] Game mode: 0 Survival
+[2026-10-01 18:47:29:251 INFO] Difficulty: 1 EASY
+[2026-10-01 18:47:29:251 INFO] Content logging to console is enabled.
+[2026-10-01 18:47:29:252 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-01 18:47:29:740 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-01_18-47-29
+[2026-10-01 18:47:29:741 INFO] Opening level 'worlds/probe3_run20/db'
+[2026-10-01 18:47:29:758 INFO] Pack Stack - [00] probe (id: 415c4249-26d1-443f-a903-7bd3104682c7, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-01 18:47:30:541 INFO] IPv4 supported, port: 29132: Used for gameplay
+[2026-10-01 18:47:30:541 INFO] IPv6 supported, port: 29133: Used for gameplay
+[2026-10-01 18:47:30:601 INFO] Server started.
+[2026-10-01 18:47:30:601 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-01 18:47:30:601 INFO] Server Telemetry is currently not enabled. 
+[2026-10-01 18:47:30:601 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-01 18:47:30:601 INFO] 
+[2026-10-01 18:47:30:601 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-01 18:47:30:601 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-01 18:47:30:601 INFO] ======================================================
+[2026-10-01 18:47:31:929 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-01 18:47:36:766 INFO] Object successfully summoned
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.c01_plain_continue_3'
+
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.e01_zero_eq_empty'
+
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.e02_strconst_ne_float'
+
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.e03_float_ne_strconst'
+
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.e04_empty_eq_negzero'
+
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.e05_negzero_ne_empty'
+
+[2026-10-01 18:47:36:780 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.e06_hash_eq_float_copy'
+
+[2026-10-01 18:47:43:824 INFO] Server stop requested.
+[2026-10-01 18:47:43:872 INFO] Stopping server...
+Quit correctly

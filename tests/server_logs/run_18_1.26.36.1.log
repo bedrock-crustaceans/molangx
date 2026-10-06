@@ -1,0 +1,97 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-01 18:17:34:942 INFO] Starting Server
+[2026-10-01 18:17:34:942 INFO] Version: 1.26.36.1
+[2026-10-01 18:17:34:942 INFO] Session ID: 660e3dac-f63e-4ec8-ab07-30c5605dc843
+[2026-10-01 18:17:34:942 INFO] Build ID: 48444137
+[2026-10-01 18:17:34:942 INFO] Branch: r/26_u3
+[2026-10-01 18:17:34:942 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-01 18:17:34:942 INFO] Configuration: Publish
+[2026-10-01 18:17:34:942 INFO] Level Name: probe3_run11
+[2026-10-01 18:17:34:943 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-01 18:17:34:943 INFO] Game mode: 0 Survival
+[2026-10-01 18:17:34:943 INFO] Difficulty: 1 EASY
+[2026-10-01 18:17:34:943 INFO] Content logging to console is enabled.
+[2026-10-01 18:17:34:945 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-01 18:17:35:399 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-01_18-17-35
+[2026-10-01 18:17:35:400 INFO] Opening level 'worlds/probe3_run11/db'
+[2026-10-01 18:17:35:417 INFO] Pack Stack - [00] probe (id: 77f7e24a-f949-4df2-842d-82d2d17dbbbb, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-01 18:17:35:551 ERROR] [Molang] probe3_run11 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | t.n53 = 0; v.q53 = 0; t.d53 = 1; v.q53 = (loop(3, { t.n53 = t.n53 + 1; v.x53_inloop_miss; }) ?? 9); t.d53 = 2; t.n53 == 1 ? (v.q53 == 9 ? v.x53_exit_to_handler : v.x53_exit_qother) : (t.n53 == 3 ? (v.q53 == 9 ? v.x53_loop_continued_q9 : v.x53_loop_continued_qother) : v.x53_other); | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-01 18:17:35:551 ERROR] [Molang] probe3_run11 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | t.n54 = 0; v.q54 = 0; t.d54 = 1; v.q54 = ({ t.n54 = t.n54 + 1; v.x54_inblock_miss; } ?? 9); t.d54 = 2; v.q54 == 9 ? v.x54_block_handler : (v.q54 == 0 ? v.x54_block_zero : v.x54_other); | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-01 18:17:35:552 ERROR] [Molang] probe3_run11 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.r = q.log(v.x15_never_set_arg) ?? 7; v.r == 7 ? v.x15_outer_handler : (v.r == 0 ? v.x15_arg_zero : v.x15_other); | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-01 18:17:35:552 ERROR] [Molang] probe3_run11 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.s50.c = 1; loop(3, { v.s50.b = v.s50; }); v.d50 = (v.s50.b.b.b.c ?? 0); v.e50 = (v.s50.b.b.b.b.c ?? 0); v.d50 == 1 ? (v.e50 == 0 ? v.x50_depth3 : (v.e50 == 1 ? v.x50_deeper_or_cyclic : v.x50_d1_other)) : (v.d50 == 0 ? v.x50_not_nested : v.x50_other); | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-01 18:17:35:552 ERROR] [Molang] probe3_run11 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.s50.c = 1; loop(3, { v.s50.b = v.s50; }); v.d50 = (v.s50.b.b.b.c ?? 0); v.e50 = (v.s50.b.b.b.b.c ?? 0); v.d50 == 1 ? (v.e50 == 0 ? v.x50_depth3 : (v.e50 == 1 ? v.x50_deeper_or_cyclic : v.x50_d1_other)) : (v.d50 == 0 ? v.x50_not_nested : v.x50_other); | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-01 18:17:35:552 ERROR] [Molang] probe3_run11 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.u50.c = 1; loop(20, { v.u50.b = v.u50; }); v.d50d = (v.u50.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.c ?? 0); v.d50d == 1 ? v.x50d_depth20_ok : (v.d50d == 0 ? v.x50d_depth20_missing : v.x50d_other); | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-01 18:17:36:208 INFO] IPv4 supported, port: 29132: Used for gameplay
+[2026-10-01 18:17:36:208 INFO] IPv6 supported, port: 29133: Used for gameplay
+[2026-10-01 18:17:36:236 INFO] Server started.
+[2026-10-01 18:17:36:236 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-01 18:17:36:236 INFO] Server Telemetry is currently not enabled. 
+[2026-10-01 18:17:36:236 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-01 18:17:36:236 INFO] 
+[2026-10-01 18:17:36:236 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-01 18:17:36:236 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-01 18:17:36:236 INFO] ======================================================
+[2026-10-01 18:17:37:619 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-01 18:17:42:455 INFO] Object successfully summoned
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x41_noelse_post'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x41b_then_post'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x42_else_post'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x42b_then_post'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x16_else_scaled'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x17_coalesce_scaled'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x43_coalesce_post'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x43b_left_post'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x51_loop3_q7'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x52_pending_kept'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x52b_pending_kept'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x53_exit_to_handler'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w53_completed_n1'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x54_block_handler'
+
+[2026-10-01 18:17:42:470 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.w54_completed'
+
+[2026-10-01 18:17:42:500 INFO] Package: com.mojang.minecraft.dedicatedserver
+Version: 1.26.36.1
+OS: Linux
+Server start: 2026-10-01 18:17:34 CEST
+Dmp timestamp: 2026-10-01 18:17:42 CEST
+Upload Date: 2026-10-01 18:17:42 CEST
+Session ID: 660e3dac-f63e-4ec8-ab07-30c5605dc843
+Commit hash: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+Build id: 48444137
+CrashReporter Key: 8c4937c1-64cb-3532-a8dc-1deb28f67293
+
+Crash
+[2026-10-01 18:17:42:500 INFO] 

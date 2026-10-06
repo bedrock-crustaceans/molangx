@@ -1,0 +1,135 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-01 18:14:36:980 INFO] Starting Server
+[2026-10-01 18:14:36:980 INFO] Version: 1.26.36.1
+[2026-10-01 18:14:36:980 INFO] Session ID: 4a42b63c-efce-4839-89e5-1cf4ad7ad4dc
+[2026-10-01 18:14:36:980 INFO] Build ID: 48444137
+[2026-10-01 18:14:36:980 INFO] Branch: r/26_u3
+[2026-10-01 18:14:36:980 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-01 18:14:36:980 INFO] Configuration: Publish
+[2026-10-01 18:14:36:980 INFO] Level Name: probe3_run9
+[2026-10-01 18:14:36:981 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-01 18:14:36:981 INFO] Game mode: 0 Survival
+[2026-10-01 18:14:36:981 INFO] Difficulty: 1 EASY
+[2026-10-01 18:14:36:982 INFO] Content logging to console is enabled.
+[2026-10-01 18:14:36:983 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-01 18:14:37:399 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-01_18-14-37
+[2026-10-01 18:14:37:400 INFO] Opening level 'worlds/probe3_run9/db'
+[2026-10-01 18:14:37:413 INFO] Pack Stack - [00] probe (id: 37c6fe52-5517-42d5-b798-09c0b953c81c, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-01 18:14:38:105 INFO] IPv4 supported, port: 29132: Used for gameplay
+[2026-10-01 18:14:38:106 INFO] IPv6 supported, port: 29133: Used for gameplay
+[2026-10-01 18:14:38:132 INFO] Server started.
+[2026-10-01 18:14:38:132 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-01 18:14:38:132 INFO] Server Telemetry is currently not enabled. 
+[2026-10-01 18:14:38:132 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-01 18:14:38:132 INFO] 
+[2026-10-01 18:14:38:132 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-01 18:14:38:132 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-01 18:14:38:132 INFO] ======================================================
+[2026-10-01 18:14:39:668 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-01 18:14:41:489 INFO] Object successfully summoned
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x30_add_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x64_sub_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x31_mul_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x32_div_den'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x33_lt_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x68_gt_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x69_le_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x70_ge_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x34_eq_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x71_ne_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x65_and_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x72_or_l'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x66_cond_c'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x35_max_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x67_min_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x61_pow_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x62_mod_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x63_atan2_y'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x75_copysign_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x37_random_lo'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x73_randint_lo'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x39_p1'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x39a_p2'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x39b_p1'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x39c_p1'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x77_p1'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x77a_p2'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x77b_p1'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x77c_p1'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x36_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x36a_b'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x36b_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x36c_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x60_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x60a_b'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x60b_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x60c_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x38_n'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x38a_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x38b_n'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x38c_n'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x74_n'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x74a_a'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x74b_n'
+
+[2026-10-01 18:14:41:719 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x74c_n'
+
+[2026-10-01 18:14:47:519 INFO] Server stop requested.
+[2026-10-01 18:14:47:564 INFO] Stopping server...
+Quit correctly

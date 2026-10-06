@@ -1,0 +1,68 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-03 07:51:49:138 INFO] Starting Server
+[2026-10-03 07:51:49:138 INFO] Version: 1.26.52.3
+[2026-10-03 07:51:49:138 INFO] Session ID: 05bd762d-161c-437c-9eab-91d3b7b5bd4c
+[2026-10-03 07:51:49:138 INFO] Build ID: 51798919
+[2026-10-03 07:51:49:138 INFO] Branch: r/26_u5
+[2026-10-03 07:51:49:138 INFO] Commit ID: 54116bb5ee0b7aee0b5591efbcc8bc3cf64f168a
+[2026-10-03 07:51:49:138 INFO] Configuration: Publish
+[2026-10-03 07:51:49:138 INFO] Contents of server.properties: {}
+[2026-10-03 07:51:49:138 INFO] Level Name: probe4_run40
+[2026-10-03 07:51:49:138 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-10-03 07:51:49:139 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-03 07:51:49:139 INFO] Game mode: 0 Survival
+[2026-10-03 07:51:49:139 INFO] Difficulty: 1 EASY
+[2026-10-03 07:51:49:142 INFO] Content logging to console is enabled.
+[2026-10-03 07:51:49:143 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-03 07:51:49:772 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-03_07-51-49
+[2026-10-03 07:51:49:774 INFO] Opening level 'worlds/probe4_run40/db'
+[2026-10-03 07:51:49:816 INFO] Pack Stack - [00] probe (id: 16df289e-0823-4f6b-922f-462e38e82aaa, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-03 07:51:50:837 INFO] Signed in to signaling service successfully
+[2026-10-03 07:51:51:035 INFO] IPv4 supported, port: 29142: Used for gameplay
+[2026-10-03 07:51:51:035 INFO] IPv6 supported, port: 29143: Used for gameplay
+[2026-10-03 07:51:51:079 INFO] Server started.
+[2026-10-03 07:51:51:080 ERROR] ================ TRANSPORT TYPE ERROR  ===================
+[2026-10-03 07:51:51:080 ERROR] Your current connection type is not set to NetherNet. In this release, NetherNet is the only supported transport type.
+[2026-10-03 07:51:51:080 ERROR] Players will not be able to connect to your game without NetherNet.
+[2026-10-03 07:51:51:080 ERROR] 
+[2026-10-03 07:51:51:080 ERROR] To switch, set 'transport=nethernet' in server.properties.
+[2026-10-03 07:51:51:080 ERROR] 
+[2026-10-03 07:51:51:080 ERROR] For more information, please reference the included bedrock_server_how_to.html file.
+[2026-10-03 07:51:51:080 ERROR] =======================================================
+[2026-10-03 07:51:51:080 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-03 07:51:51:080 INFO] Server Telemetry is currently not enabled. 
+[2026-10-03 07:51:51:080 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-03 07:51:51:080 INFO] 
+[2026-10-03 07:51:51:080 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-03 07:51:51:080 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-03 07:51:51:080 INFO] ======================================================
+[2026-10-03 07:51:53:328 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-03 07:51:56:142 INFO] Object successfully summoned
+[2026-10-03 07:51:56:182 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-03 07:51:56:182 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-03 07:51:56:182 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-03 07:51:56:182 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.v01_v7up'
+
+[2026-10-03 07:51:56:182 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.v02_resolved'
+
+[2026-10-03 07:51:56:182 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.v03_resolved'
+
+[2026-10-03 07:51:56:182 ERROR] [Molang] Error: query.has_block_property does not have a block.
+
+[2026-10-03 07:51:56:182 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.v04_resolved'
+
+[2026-10-03 07:51:56:182 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.v99_marker_end'
+
+[2026-10-03 07:52:04:106 INFO] Server stop requested.
+[2026-10-03 07:52:04:154 INFO] Stopping server...
+Quit correctly

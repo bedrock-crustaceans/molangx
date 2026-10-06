@@ -1,0 +1,200 @@
+!q.delta_time <= math.clamp(math.exp(45), 180, 1) ? math.clamp(math.clamp(1, 45, 0), 0, 15) : math.lerp(math.floor(query.anim_time), math.clamp(v.look_at_target, 0.25, 0.1), 0.25)
+!q.ground_speed
+!q.has_rider
+!q.has_rider < query.modified_move_speed ? !query.health - q.mark_variant / t.y : (v.bob_animation && q.target_y_rotation) / query.modified_move_speed
+!q.head_x_rotation(0) * 15
+!q.head_y_rotation(0)
+!q.is_jumping != 16 >= !q.frame_alpha ? math.max(v.last_state, q.target_x_rotation) : q.body_y_rotation / q.body_y_rotation ? v.tcos1 : q.frame_alpha
+!q.is_sprinting
+!q.is_tamed * !q.target_y_rotation
+!q.modified_distance_moved
+!q.target_x_rotation
+!q.vertical_speed
+!query.is_baby
+!query.is_baby / q.is_tamed / q.ground_speed >= v.timer * temp.angle ? v.last_state - v.tcos1 : 1.5
+!query.time_of_day <= (!query.anim_time && q.head_x_rotation(0) * 24) ? math.lerp(v.attack_time, v.attack_time, 0.25) > math.cos(v.timer) ? math.ln(q.is_in_water) : math.trunc(0.25) : math.cos(query.modified_move_speed) * math.cos(q.modified_distance_moved)
+(!query.modified_move_speed && 1.5 / 15) + !q.is_sitting
+((variable.swim_amount && temp.angle + query.health) && (math.clamp(query.is_baby, 0.0625, 90) && 90 - -30))
+(math.abs(math.round(q.body_y_rotation)) && q.body_y_rotation)
+(math.ceil(q.anger_level) && math.clamp(v.attack_time, 2, 0))
+(math.lerp(!q.frame_alpha, q.target_y_rotation, 0.25) || temp.angle)
+(q.frame_alpha >= v.leg_angle ? 100 : math.exp(45) && math.floor(math.mod(q.frame_alpha, query.health)))
+(q.is_jumping || q.vertical_speed) + query.life_time * 15 - q.body_y_rotation
+(q.is_sneaking + math.clamp(query.health, 0.0625, 0) || !q.is_in_water)
+(q.modified_distance_moved * v.tcos0 >= q.is_sprinting ? 0.0625 : q.is_in_water && q.skin_id)
+(v.last_state && 1.5 > v.walk_speed ? v.is_brandishing : v.is_brandishing - math.clamp(q.is_sitting, 180, 0.25))
+(v.tcos1 + !q.is_sneaking && 15)
+(variable.swim_amount && q.variant)
+-1
+-1 + q.target_x_rotation
+0
+0.0625
+0.25
+15
+16 > query.anim_time ? (math.clamp(v.last_state, 2, 16) || variable.swim_amount - 0) : math.sqrt(math.max(q.frame_alpha, v.charge_amount))
+3.0
+360
+57.3
+math.abs(90 - q.ground_speed)
+math.abs(q.is_sneaking < q.head_y_rotation(0) ? v.is_brandishing : 3.0 / math.clamp(v.is_brandishing, 24, -1))
+math.abs(v.bob_animation)
+math.ceil(24)
+math.ceil(math.min(q.vertical_speed, 16)) < math.clamp(-30, 0.0625, -30) + math.lerp(query.is_baby, v.timer, 0.5) ? math.clamp(math.trunc(v.look_at_target), 100, -1) : 2
+math.ceil(v.tcos0) - 3.0 > math.cos(variable.is_first_person) * math.sin(q.is_tamed) ? math.ln(0.1) <= v.leg_angle ? query.life_time >= query.modified_move_speed ? q.ground_speed : v.is_brandishing : (variable.swim_amount && q.modified_distance_moved) : math.cos(!q.is_charging)
+math.clamp((math.pow(t.x, v.walk_speed) && q.is_sitting + 16), 90, 16)
+math.clamp(0.1, 1, 0.1)
+math.clamp(math.ceil(math.ln(16)), 90, 180)
+math.clamp(math.clamp(math.lerp(15, 57.3, 0.5), 24, 0), 180, 0.1)
+math.clamp(math.clamp(math.min(q.is_sneaking, v.charge_amount), 0.1, 57.3), 0.0625, 90)
+math.clamp(math.clamp(v.charge_amount != 0.1 ? t.y : q.is_in_water, 100, 0.25), 2, 16)
+math.clamp(math.clamp(v.is_brandishing * q.anger_level, 45, -30), 3.0, 0.0625)
+math.clamp(math.cos(v.bob_animation >= q.modified_distance_moved ? v.charge_amount : q.body_y_rotation), 3.0, -1)
+math.clamp(math.exp(0.5 * q.is_in_water), 16, 0.0625)
+math.clamp(math.lerp(q.is_sitting < v.tcos0 ? 24 : t.y, (v.is_brandishing && v.charge_amount), 0.25), 90, 0.5)
+math.clamp(math.ln(temp.offset) - (q.skin_id || q.skin_id), 3.0, 0.25)
+math.clamp(math.round(temp.angle), 100, 15) == math.floor(query.time_of_day) ? math.round(!q.vertical_speed) : v.is_brandishing
+math.clamp(math.sin(math.round(q.head_x_rotation(0))), -1, 15)
+math.clamp(q.anger_level - math.pow(q.vertical_speed, q.delta_time), 360, 0.5)
+math.clamp(q.frame_alpha / temp.offset + t.y, -30, 0.0625)
+math.clamp(q.has_rider, 2, 3.0) > math.lerp(q.is_sitting, 2, 0.5) ? 100 : math.sqrt(v.charge_amount) / -30
+math.clamp(q.modified_distance_moved, 45, 3.0)
+math.clamp(query.life_time, 0.5, 0.25)
+math.clamp(v.look_at_target, 0.1, 0.5) / math.abs(45 * temp.offset)
+math.clamp(v.tcos0, 360, 2) / -1 - (q.vertical_speed || 100) * math.lerp(temp.angle, query.is_on_ground, 0.5)
+math.clamp(v.timer, 1.5, 0) + q.target_y_rotation <= v.leg_angle + q.ground_speed * v.tcos1 ? v.is_brandishing / q.mark_variant - math.lerp(query.is_baby, -30, q.frame_alpha) : !query.life_time
+math.clamp(v.timer, 180, -30)
+math.cos(math.clamp(v.charge_amount, 0.1, 0.0625) / math.sqrt(0.1))
+math.cos(v.timer + q.is_jumping / math.sin(query.life_time))
+math.exp(math.clamp(0.5, 0.1, 0.5)) - q.is_moving - -1
+math.exp(math.clamp(v.look_at_target, 15, 0.5)) * math.clamp(!q.is_jumping, 16, 100)
+math.exp(math.cos(query.time_of_day)) * q.has_rider
+math.exp(math.lerp(temp.angle <= -1 ? v.last_state : q.vertical_speed, math.lerp(temp.angle, temp.offset, q.frame_alpha), 0.5))
+math.exp(math.sqrt(query.life_time * -30))
+math.exp(math.trunc(math.min(query.is_baby, t.x)))
+math.exp(q.skin_id) * variable.swim_amount
+math.lerp(!q.is_sneaking, v.timer / v.walk_speed, 0.5) / math.trunc((v.tcos0 && q.head_x_rotation(0)))
+math.lerp((math.pow(0.1, 3.0) && math.exp(q.mark_variant)), math.max(t.y < v.attack_time ? 16 : temp.offset, 3.0 + query.time_of_day), q.frame_alpha)
+math.lerp((v.charge_amount && v.bob_animation), 24, 0.25) - (2 + q.is_sprinting && math.cos(v.tcos1))
+math.lerp(15 * q.variant * math.clamp(v.attack_time, 45, 180), 0.0625 < query.is_baby ? 0.5 : 24 - q.body_y_rotation, 0.5)
+math.lerp(math.ceil(math.round(v.timer)), v.walk_speed, 0.25)
+math.lerp(math.clamp(v.bob_animation + v.gliding_speed_value, 0.5, 16), v.is_brandishing, 0.25)
+math.lerp(math.floor(math.abs(t.x)), math.mod(math.lerp(v.is_brandishing, t.y, 0.25), q.is_in_water), q.frame_alpha)
+math.lerp(math.floor(q.frame_alpha) - !query.health, q.delta_time, 0.5)
+math.lerp(math.floor(v.timer > v.timer ? v.timer : 2), math.trunc(math.max(t.y, 3.0)), q.frame_alpha)
+math.lerp(math.lerp(v.charge_amount, temp.offset, 0.5) != q.delta_time ? math.clamp(q.is_moving, 15, 360) : 16, math.clamp(temp.angle - 3.0, 180, 45), q.frame_alpha)
+math.lerp(math.ln(math.round(q.ground_speed)), q.is_in_water * q.body_y_rotation < 90 ? t.x : v.walk_speed, q.frame_alpha)
+math.lerp(math.sqrt(math.sqrt(90)), math.floor(math.pow(v.leg_angle, q.is_in_water)), 0.25)
+math.lerp(q.target_y_rotation - math.floor(t.y), math.lerp(!q.is_jumping, q.modified_distance_moved - 2, 0.5), 0.25)
+math.ln(math.clamp(q.skin_id / t.y, 0.0625, 0.0625))
+math.ln(q.head_y_rotation(0) - v.walk_speed) + math.clamp(math.exp(q.head_y_rotation(0)), 0.0625, 3.0)
+math.max(math.max(v.charge_amount - v.attack_time, math.mod(variable.is_first_person, q.head_y_rotation(0))), math.floor((v.leg_angle && query.is_on_ground)))
+math.max(math.sin(math.clamp(q.is_sneaking, 24, 45)), math.lerp(q.body_y_rotation, !query.time_of_day, q.frame_alpha))
+math.max(q.is_sitting, query.modified_move_speed > q.modified_distance_moved ? v.attack_time : q.head_x_rotation(0)) * 0.5 + v.timer + temp.angle
+math.max(q.is_tamed != query.time_of_day ? q.is_tamed : 0.5 != math.clamp(q.mark_variant, 57.3, 15) ? q.is_sneaking * 1.5 : math.mod(v.attack_time, q.body_y_rotation), math.pow(math.sin(q.is_tamed), q.is_in_water > q.variant ? q.is_sitting : t.y))
+math.max(v.timer, 0.0625)
+math.min(math.clamp(q.frame_alpha, 0.25, 180) * 0.0625, math.clamp(v.walk_speed, 90, -30) - t.x - q.vertical_speed)
+math.min(math.mod(math.clamp(t.x, 57.3, 1), math.clamp(2, 180, 1)), 0 * q.is_sprinting >= query.life_time ? v.timer : 16)
+math.min(q.has_rider, 90 / v.attack_time) / math.lerp(v.timer / q.is_in_water, (q.modified_distance_moved || v.attack_time), q.frame_alpha)
+math.mod((v.look_at_target && q.is_jumping), q.is_tamed * 100) - v.gliding_speed_value
+math.pow(math.pow(q.target_y_rotation, 1.5), query.is_baby == v.tcos1 ? t.y : query.anim_time) * 1 * 0.25 - 16 * v.bob_animation
+math.pow(v.walk_speed * v.attack_time, 45)
+math.sin(57.3)
+math.sin(math.clamp(v.attack_time, 0.0625, 0.5)) != ((v.charge_amount || q.is_sneaking) && math.lerp(temp.angle, v.bob_animation, 0.25)) ? v.tcos1 + math.ceil(temp.offset) : math.clamp(v.bob_animation, 0.1, 2)
+math.sin(math.mod(0.0625, t.y) <= math.min(v.tcos0, v.attack_time) ? math.lerp(0.5, q.is_sitting, 0.5) : v.charge_amount - v.charge_amount)
+math.sin(variable.swim_amount) / math.clamp(1 != 360 ? v.attack_time : q.body_y_rotation, 0, 45)
+math.sqrt((45 || math.round(query.time_of_day)))
+math.sqrt((query.health && 0.25) < (0.0625 || t.x) ? v.leg_angle : query.life_time - q.is_jumping)
+math.sqrt(math.abs(0.1) + t.y)
+math.sqrt(math.lerp(query.modified_move_speed, temp.offset, 0.5)) < t.y ? math.sqrt(temp.angle) : (q.is_moving || v.last_state) <= t.y ? 3.0 : t.x
+math.trunc(!q.anger_level)
+math.trunc(math.clamp(q.variant == temp.offset ? q.target_y_rotation : 0.25, 0.5, 3.0))
+math.trunc(math.mod(v.walk_speed < v.last_state ? v.attack_time : q.frame_alpha, math.lerp(v.attack_time, -1, 0.5)))
+math.trunc(query.anim_time < variable.is_first_person ? q.vertical_speed : v.last_state + math.abs(t.y))
+q.anger_level
+q.ground_speed
+q.has_rider
+q.is_jumping
+q.is_jumping * v.bob_animation
+q.is_moving
+q.is_sitting
+q.is_sneaking
+q.is_sprinting
+q.is_tamed <= math.max(query.life_time, variable.is_first_person) - math.lerp(57.3, -30, q.frame_alpha) ? math.clamp(0 - temp.angle, 0.25, 16) : v.is_brandishing
+q.modified_distance_moved
+q.target_x_rotation
+q.variant
+q.variant + v.is_brandishing / math.ln(0.1) / math.lerp(v.tcos0 * q.anger_level, t.x, q.frame_alpha)
+q.vertical_speed
+query.health
+query.is_baby <= math.ln(math.abs(v.leg_angle)) ? math.clamp(math.lerp(100, v.walk_speed, q.frame_alpha), -30, 1) : 0.0625
+query.life_time
+query.modified_move_speed
+query.modified_move_speed * temp.angle * t.x / query.anim_time
+query.modified_move_speed == v.gliding_speed_value * q.is_jumping + q.is_sitting ? math.lerp(math.round(16), v.attack_time, 0.25) : math.lerp(q.is_tamed, v.last_state, 0.25) + math.round(query.modified_move_speed)
+query.time_of_day
+query.time_of_day - q.target_y_rotation > math.exp(variable.is_first_person) ? 0.5 : v.gliding_speed_value * v.tcos0 / !q.target_y_rotation
+t.x + v.attack_time + q.is_in_water + q.anger_level
+t.y
+v.attack_time
+v.bob_animation
+v.bob_animation + v.timer != (2 || 45) ? !q.anger_level : (q.delta_time && temp.offset) - !query.anim_time
+v.bob_animation / 0.0625 / q.modified_distance_moved + q.variant
+v.charge_amount
+v.last_state
+v.leg_angle
+v.look_at_target
+v.tcos0
+v.timer
+v.timer * math.exp(t.x) * temp.angle
+v.walk_speed
+variable.swim_amount
+t.x = 90; t.x = !query.is_on_ground * v.tcos0 - v.bob_animation; v.tcos1 = math.lerp(t.y, (q.delta_time && q.target_y_rotation), 0.5);
+t.x = q.target_y_rotation + variable.is_first_person - q.is_in_water + q.mark_variant; v.tcos0 = query.time_of_day; v.gliding_speed_value = math.abs(math.trunc(180)); variable.is_first_person = math.lerp(57.3, v.tcos1, 0.5) / math.clamp(360, 0.0625, 0.25); variable.is_first_person = math.round(math.clamp(2, 24, 0.5));
+t.y = (v.attack_time || q.is_moving); v.attack_time = v.bob_animation; v.tcos1 = 0.5 / v.last_state - math.trunc(q.head_y_rotation(0)); return math.clamp(variable.is_first_person, 0.5, 3.0);
+t.y = math.clamp(query.health, 1, 1.5); v.tcos1 = math.pow(math.min(t.y, q.is_in_water), v.charge_amount / t.y); return math.abs(math.sqrt(temp.offset));
+t.y = temp.offset; v.tcos0 = t.x >= v.charge_amount ? v.bob_animation : v.walk_speed * math.ln(90); v.gliding_speed_value = math.lerp(0.0625, query.health, 0.5) * v.gliding_speed_value;
+temp.angle = (v.attack_time * q.mark_variant && t.y); temp.offset = q.vertical_speed * !query.is_on_ground; v.gliding_speed_value = !query.time_of_day * (temp.offset || 16); v.gliding_speed_value = 360; return math.clamp(query.is_baby, 0.1, 100) <= math.clamp(v.walk_speed, 0.1, -30) ? v.gliding_speed_value + 1 : math.ln(variable.is_first_person);
+temp.angle = math.mod(t.y, query.is_on_ground - t.x); v.walk_speed = math.ceil(q.is_sprinting >= q.skin_id ? q.vertical_speed : v.timer); temp.offset = query.anim_time >= math.clamp(variable.swim_amount, 0, 0.0625) ? 3.0 : (q.is_sneaking && query.life_time); t.y = q.is_moving; return math.lerp(math.abs(q.is_sitting), math.lerp(v.timer, 2, 0.25), q.frame_alpha);
+temp.angle = t.x; v.gliding_speed_value = !query.time_of_day + v.attack_time * temp.offset; t.x = temp.offset / variable.swim_amount - v.tcos0 + v.gliding_speed_value;
+temp.offset = math.clamp(math.trunc(v.tcos1), 2, 15); v.attack_time = q.is_sneaking * temp.angle; v.walk_speed = v.leg_angle; return query.anim_time;
+temp.offset = v.leg_angle; variable.swim_amount = q.variant + math.min(180, q.body_y_rotation); variable.swim_amount = (100 && math.ln(100)); return v.gliding_speed_value;
+v.attack_time = (v.gliding_speed_value && t.x) >= math.sin(-1) ? 24 : v.charge_amount; t.y = math.clamp(q.head_x_rotation(0) + 0.5, -30, 16);
+v.attack_time = math.clamp(v.tcos1, 100, 180); v.gliding_speed_value = (q.is_jumping - v.charge_amount && q.frame_alpha * v.tcos1); return (t.x || math.clamp(q.vertical_speed, 45, -30));
+v.attack_time = math.floor(math.lerp(q.anger_level, v.look_at_target, 0.25)); v.bob_animation = v.last_state >= math.clamp(q.has_rider, -30, 3.0) ? 45 : q.anger_level / q.target_x_rotation; v.tcos1 = !q.is_tamed; temp.angle = math.cos(math.clamp(q.variant, 0.0625, -30)); return (2 || temp.angle) / !query.is_on_ground;
+v.attack_time = math.mod(temp.angle == temp.offset ? 15 : t.x, q.skin_id * v.last_state); v.tcos0 = math.trunc(v.attack_time) + math.trunc(q.target_y_rotation); variable.is_first_person = !q.body_y_rotation; t.y = v.is_brandishing; return q.variant < variable.swim_amount ? 0.1 : variable.swim_amount <= math.ln(t.x) ? q.is_sneaking > variable.swim_amount ? temp.angle : v.walk_speed : q.is_jumping + q.is_sprinting;
+v.attack_time = query.time_of_day * v.gliding_speed_value / v.tcos0; v.bob_animation = 15 >= q.is_tamed ? q.is_charging : 57.3 == 3.0 ? 0.0625 : 15; temp.offset = q.frame_alpha; return (t.x && math.round(q.frame_alpha));
+v.bob_animation = 0 - math.mod(15, 0.0625); v.walk_speed = 0.25;
+v.bob_animation = 0.25; v.bob_animation = temp.offset; return temp.angle;
+v.bob_animation = math.ln((0.5 && q.target_y_rotation)); temp.offset = !q.is_sprinting != math.trunc(q.is_sitting) ? math.cos(90) : v.charge_amount; v.tcos1 = math.clamp(math.min(57.3, query.life_time), -30, 90);
+v.bob_animation = temp.offset; v.walk_speed = math.clamp(!q.is_sitting, 57.3, 100); variable.is_first_person = 15; temp.offset = math.clamp(math.lerp(t.x, q.variant, q.frame_alpha), -1, 15); variable.is_first_person = v.is_brandishing;
+v.gliding_speed_value = !q.is_in_water; variable.swim_amount = math.clamp(v.walk_speed, 0.5, 0.25); v.tcos1 = v.last_state;
+v.gliding_speed_value = 15; temp.angle = math.min((t.x || q.is_tamed), math.clamp(v.look_at_target, 3.0, 180)); t.y = math.clamp(!q.is_moving, 2, 1);
+v.gliding_speed_value = 3.0; t.y = math.ln(!q.is_sprinting); v.attack_time = ((q.is_in_water && q.mark_variant) && temp.offset >= v.timer ? -30 : temp.offset); v.bob_animation = math.sqrt(query.time_of_day > temp.angle ? v.gliding_speed_value : v.tcos0); v.gliding_speed_value = math.lerp(temp.offset + v.walk_speed, math.floor(3.0), 0.25); return v.tcos0 >= (0.1 && q.vertical_speed) ? q.body_y_rotation + t.y : math.clamp(0.25, 1.5, -1);
+v.tcos0 = math.clamp(variable.is_first_person, 0.5, 0.0625) + math.clamp(180, -30, 15); v.attack_time = math.ceil(v.look_at_target) * math.round(-1); variable.swim_amount = !q.target_x_rotation; v.walk_speed = temp.offset == math.ceil(v.gliding_speed_value) ? v.is_brandishing < t.x ? v.look_at_target : v.look_at_target : v.gliding_speed_value; v.walk_speed = 57.3;
+v.tcos0 = math.floor(math.floor(q.modified_distance_moved)); v.tcos0 = math.trunc(query.is_on_ground == temp.angle ? 0.0625 : 360); t.x = query.time_of_day; v.gliding_speed_value = (math.sin(0.0625) || math.round(q.modified_distance_moved)); t.y = math.sqrt(v.leg_angle); return temp.offset;
+v.tcos0 = math.lerp(variable.swim_amount, q.has_rider, q.frame_alpha); v.tcos1 = v.attack_time;
+v.tcos1 = (v.is_brandishing <= temp.offset ? q.is_jumping : temp.angle || -30 <= q.is_tamed ? 100 : v.gliding_speed_value); v.tcos0 = temp.angle; v.walk_speed = math.ln(math.clamp(v.leg_angle, 0.1, -1)); v.tcos0 = 90;
+v.tcos1 = math.clamp(math.clamp(q.skin_id, 180, -1), 57.3, 24); v.walk_speed = math.sqrt(math.min(temp.offset, variable.swim_amount)); v.tcos0 = (q.has_rider || 1.5) != math.abs(q.head_x_rotation(0)) ? 90 <= query.is_baby ? q.head_x_rotation(0) : query.is_baby : math.lerp(t.x, v.timer, 0.5); temp.offset = (math.floor(q.mark_variant) || (q.is_sneaking || v.walk_speed)); v.tcos1 = q.delta_time;
+v.tcos1 = math.clamp(query.anim_time, 57.3, 1.5) * v.leg_angle != q.is_tamed ? q.target_y_rotation : 360; variable.swim_amount = math.sin(q.target_y_rotation) * v.charge_amount;
+v.tcos1 = math.clamp(v.attack_time, 1, -30) != math.trunc(q.head_y_rotation(0)) ? temp.angle : math.ln(v.is_brandishing); temp.offset = math.mod(0.1 * 90, (q.skin_id || q.head_y_rotation(0))); v.bob_animation = math.abs(3.0); t.x = q.ground_speed; v.tcos1 = math.clamp(t.y, 1, 1.5); return q.is_sneaking <= v.last_state ? q.is_charging : v.bob_animation != v.charge_amount ? math.max(q.is_sitting, q.ground_speed) : math.round(v.attack_time);
+v.tcos1 = query.health; v.attack_time = 180;
+v.tcos1 = v.gliding_speed_value / v.look_at_target == math.lerp(0.25, v.walk_speed, q.frame_alpha) ? v.look_at_target : math.lerp(q.is_jumping, v.timer, q.frame_alpha); t.x = 0.25; return v.leg_angle;
+v.walk_speed = math.abs(45) <= -1 ? math.lerp(q.ground_speed, q.frame_alpha, 0.5) : math.lerp(query.anim_time, v.bob_animation, 0.25); variable.is_first_person = (math.min(v.is_brandishing, v.timer) || math.trunc(t.y)); v.gliding_speed_value = (t.y || v.is_brandishing) == v.timer + 0.1 ? math.max(v.look_at_target, v.timer) : (temp.angle || v.walk_speed); v.tcos1 = math.clamp(v.is_brandishing <= q.is_sitting ? 16 : v.bob_animation, -1, 1.5);
+v.walk_speed = math.pow(math.pow(variable.is_first_person, v.look_at_target), (query.life_time && -30)); v.attack_time = !q.is_sitting; variable.swim_amount = math.abs(!q.target_x_rotation);
+v.walk_speed = q.body_y_rotation; v.walk_speed = t.y * v.is_brandishing / math.pow(v.charge_amount, q.body_y_rotation); t.x = !query.is_baby; return math.cos(math.clamp(v.timer, 90, -30));
+variable.is_first_person = !query.life_time; t.y = 0; v.attack_time = v.leg_angle; variable.swim_amount = math.lerp(math.lerp(0.5, q.is_sitting, 0.5), math.sin(t.y), 0.25); temp.angle = math.cos(math.trunc(query.time_of_day));
+variable.is_first_person = 1.5; v.attack_time = query.health > q.is_sitting ? variable.is_first_person : q.head_x_rotation(0) > math.ceil(q.head_x_rotation(0)) ? q.anger_level : math.lerp(query.health, 16, 0.25); t.y = t.x;
+variable.is_first_person = math.sin(q.is_sneaking) - math.lerp(t.y, t.x, q.frame_alpha); v.tcos0 = q.ground_speed / q.delta_time - v.attack_time > q.anger_level ? 0.1 : temp.angle; return math.pow(math.clamp(v.bob_animation, 0.1, 15), variable.swim_amount + variable.is_first_person);
+variable.swim_amount = (query.health < 16 ? 1.5 : -1 && math.floor(q.is_sneaking)); temp.offset = 0.1; t.x = math.lerp(45, query.time_of_day, 0.25) / 0.5; v.bob_animation = math.max((q.modified_distance_moved || 16), math.max(q.ground_speed, q.head_y_rotation(0)));
+variable.swim_amount = q.body_y_rotation > v.look_at_target ? q.is_sneaking : q.vertical_speed == (q.anger_level || 0.1) ? q.target_y_rotation * t.y : q.frame_alpha + query.modified_move_speed; variable.swim_amount = !q.skin_id; variable.is_first_person = q.has_rider; return math.lerp(v.charge_amount <= query.is_on_ground ? v.attack_time : 360, math.sin(v.last_state), 0.5);
+variable.swim_amount = v.attack_time; temp.angle = math.sqrt(math.cos(v.walk_speed));
+loop(4, { t.i = (t.i ?? 0) + 1; v.sum = (v.sum ?? 0) + t.i; });
+v.cooldown = (v.cooldown ?? 0) > 0 ? v.cooldown - q.delta_time : 0;
+(v.missing_value ?? 1) * 2
+q.is_baby ? 0.5 : 1.0
+v.state == 'idle' ? 0 : 1
+q.variant == 2 && q.mark_variant != 0
+{ v.a = 1; v.b = 2; } ; return v.a + v.b;
+math.random(0, 1) > 0.5 ? math.random_integer(1, 3) : math.die_roll(1, 1, 6)
+math.ease_in_out_sine(0, 1, q.anim_time)
+math.hermite_blend(math.clamp(q.anim_time, 0, 1))

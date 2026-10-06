@@ -1,0 +1,91 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-01 17:13:14:321 INFO] Starting Server
+[2026-10-01 17:13:14:321 INFO] Version: 1.26.36.1
+[2026-10-01 17:13:14:321 INFO] Session ID: ace7b5b5-9066-4b0d-991d-ffeb57e4a1d7
+[2026-10-01 17:13:14:321 INFO] Build ID: 48444137
+[2026-10-01 17:13:14:321 INFO] Branch: r/26_u3
+[2026-10-01 17:13:14:321 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-01 17:13:14:321 INFO] Configuration: Publish
+[2026-10-01 17:13:14:322 INFO] Level Name: probe2_run2
+[2026-10-01 17:13:14:323 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-01 17:13:14:323 INFO] Game mode: 0 Survival
+[2026-10-01 17:13:14:323 INFO] Difficulty: 1 EASY
+[2026-10-01 17:13:14:324 INFO] Content logging to console is enabled.
+[2026-10-01 17:13:14:325 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-01 17:13:14:691 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-01_17-13-14
+[2026-10-01 17:13:14:691 INFO] Opening level 'worlds/probe2_run2/db'
+[2026-10-01 17:13:14:703 INFO] Pack Stack - [00] probe (id: 2fae22ad-c8ad-412c-a6f9-ce5569f5a573, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-01 17:13:15:357 INFO] IPv4 supported, port: 29132: Used for gameplay
+[2026-10-01 17:13:15:357 INFO] IPv6 supported, port: 29133: Used for gameplay
+[2026-10-01 17:13:15:381 INFO] Server started.
+[2026-10-01 17:13:15:381 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-01 17:13:15:381 INFO] Server Telemetry is currently not enabled. 
+[2026-10-01 17:13:15:381 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-01 17:13:15:381 INFO] 
+[2026-10-01 17:13:15:381 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-01 17:13:15:381 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-01 17:13:15:381 INFO] ======================================================
+[2026-10-01 17:13:15:727 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-01 17:13:17:840 INFO] Object successfully summoned
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n01_quart_chain'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n02_quart_d_chain'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n03_cube_plus1_times_d'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n04_end_is_start_plus_span'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n05_end_is_start_plus_span'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n06_end_is_start_plus_span'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n07_hermite_terms'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n08_convert_then_scale'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n09_convert_scale_add'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n10_acos_nan_isnan'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n11_asin_nan_isnan'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n12_div_nan_isnan'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n13_div_constnan_is0'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n14_div_allconst_nan_is0'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n15_random_nanhi_nan'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n16_random_inf_is_neginf'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n17_copysign_blind'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n18_mod_var_poszero'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n19_mod_varlit_poszero'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n20_modfold_poszero'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n21_fold_c_times_offset_first'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n22_false'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n23_false'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n24_false'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n25_false'
+
+[2026-10-01 17:13:17:889 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.n99_marker_end'
+
+[2026-10-01 17:13:23:098 INFO] Server stop requested.
+[2026-10-01 17:13:23:145 INFO] Stopping server...
+Quit correctly

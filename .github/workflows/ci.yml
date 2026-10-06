@@ -1,0 +1,245 @@
+name: Continuous integration
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+# Pinned because clippy's lints change between releases; `MSRV` is `rust-version` in Cargo.toml.
+env:
+  CARGO_TERM_COLOR: always
+  RUST_TOOLCHAIN: "1.98.1"
+  MSRV: "1.92.0"
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+      - name: cargo check (no default features)
+        run: cargo check --locked --no-default-features
+      - name: cargo check (all features)
+        run: cargo check --locked --all-features
+      - name: Documentation builds without warnings
+        run: cargo doc --locked --no-deps --all-features
+        env:
+          RUSTDOCFLAGS: "-D warnings"
+      - name: Documentation builds without warnings (no default features)
+        run: cargo doc --locked --no-deps --no-default-features
+        env:
+          RUSTDOCFLAGS: "-D warnings"
+      - name: Documentation builds without warnings (vm without stdlib)
+        run: cargo doc --locked --no-deps --no-default-features --features vm
+        env:
+          RUSTDOCFLAGS: "-D warnings"
+
+  msrv:
+    name: Minimum supported Rust version
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.MSRV }}
+      # A consumer never sees Cargo.lock: a dependency that raises its minimum Rust shows up here.
+      - name: Resolve the dependencies afresh
+        run: rm Cargo.lock
+      - name: cargo check (all features)
+        run: cargo check --all-features
+      - name: cargo test --doc (all features)
+        run: cargo test --doc --all-features
+
+  test:
+    name: Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+      - name: cargo test (stdlib)
+        run: cargo test --locked --no-default-features --features stdlib
+      - name: cargo test (stdlib, compiler)
+        run: cargo test --locked --no-default-features --features stdlib,compiler
+      - name: cargo test (stdlib, vm)
+        run: cargo test --locked --no-default-features --features stdlib,vm
+      - name: cargo test (stdlib, cache)
+        run: cargo test --locked --no-default-features --features stdlib,cache
+      - name: cargo test (stdlib, facet)
+        run: cargo test --locked --no-default-features --features stdlib,facet
+      - name: cargo test (fuzz)
+        run: cargo test --locked --no-default-features --features fuzz
+      - name: cargo test (all features)
+        run: cargo test --locked --all-features
+      - name: cargo test (compiler without stdlib)
+        run: cargo test --locked --no-default-features --features compiler --test engine_only
+      - name: cargo test (vm without stdlib)
+        run: cargo test --locked --no-default-features --features vm --test engine_only
+      - name: cargo test --doc (vm without stdlib)
+        run: cargo test --locked --doc --no-default-features --features vm
+
+  # An aarch64 build has the arm64 float behaviour: these steps run the whole suite with it; elsewhere only the
+  # arch modules' unit tests do.
+  test-arm64:
+    name: Test (Linux arm64)
+    runs-on: ubuntu-24.04-arm
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+          components: clippy
+      - name: cargo clippy (arm64, all features)
+        run: cargo clippy --locked --all-targets --all-features -- -D warnings
+      - name: cargo clippy (arm64, no default features)
+        run: cargo clippy --locked --no-default-features -- -D warnings
+      - name: cargo clippy (arm64, compiler and vm without stdlib)
+        run: cargo clippy --locked --no-default-features --features compiler,vm -- -D warnings
+      - name: cargo test (arm64, all features)
+        run: cargo test --locked --all-features
+      - name: cargo test (arm64, stdlib)
+        run: cargo test --locked --no-default-features --features stdlib
+      - name: cargo test (arm64, stdlib, compiler)
+        run: cargo test --locked --no-default-features --features stdlib,compiler
+      - name: cargo test (arm64, stdlib, vm)
+        run: cargo test --locked --no-default-features --features stdlib,vm
+      - name: cargo test (arm64, stdlib, cache)
+        run: cargo test --locked --no-default-features --features stdlib,cache
+      - name: cargo test (arm64, stdlib, facet)
+        run: cargo test --locked --no-default-features --features stdlib,facet
+      - name: cargo test (arm64, fuzz)
+        run: cargo test --locked --no-default-features --features fuzz
+      - name: cargo test (arm64, compiler without stdlib)
+        run: cargo test --locked --no-default-features --features compiler --test engine_only
+      - name: cargo test (arm64, vm without stdlib)
+        run: cargo test --locked --no-default-features --features vm --test engine_only
+      - name: Documentation builds without warnings (arm64)
+        run: cargo doc --locked --no-deps --all-features
+        env:
+          RUSTDOCFLAGS: "-D warnings"
+      - name: cargo clippy (arm64, fuzz)
+        run: cargo clippy --locked --manifest-path fuzz/Cargo.toml --all-targets -- -D warnings
+      - name: cargo test (arm64, fuzz)
+        run: cargo test --locked --manifest-path fuzz/Cargo.toml
+
+  fmt:
+    name: Rustfmt
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+          components: rustfmt
+      - name: cargo fmt
+        run: cargo fmt --all -- --check
+
+  clippy:
+    name: Clippy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+          components: clippy
+      - name: cargo clippy (no default features)
+        run: cargo clippy --locked --no-default-features -- -D warnings
+      - name: cargo clippy (all features)
+        run: cargo clippy --locked --all-targets --all-features -- -D warnings
+      - name: cargo clippy (feature compiler alone)
+        run: cargo clippy --locked --no-default-features --features compiler -- -D warnings
+      - name: cargo clippy (feature vm alone)
+        run: cargo clippy --locked --no-default-features --features vm -- -D warnings
+      - name: cargo clippy (feature cache alone)
+        run: cargo clippy --locked --no-default-features --features cache -- -D warnings
+      - name: cargo clippy (feature facet alone)
+        run: cargo clippy --locked --no-default-features --features facet -- -D warnings
+      - name: cargo clippy (feature stdlib alone)
+        run: cargo clippy --locked --no-default-features --features stdlib -- -D warnings
+      - name: cargo clippy (feature fuzz alone)
+        run: cargo clippy --locked --no-default-features --features fuzz -- -D warnings
+      - name: cargo clippy (compiler and vm without stdlib)
+        run: cargo clippy --locked --no-default-features --features compiler,vm -- -D warnings
+
+  examples:
+    name: Examples
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+      - name: Run every example
+        run: |
+          cargo run --locked --example hello_world --features vm
+          cargo run --locked --example versions --features compiler
+          cargo run --locked --example json_forms
+          cargo run --locked --example diagnostics --features compiler
+          cargo run --locked --example restricted --features compiler
+          cargo run --locked --example host --features vm
+          cargo run --locked --example variables --features vm
+          cargo run --locked --example math --features vm
+          cargo run --locked --example cache --features cache
+
+  fuzz:
+    name: Fuzz package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Running the targets needs nightly and cargo-fuzz; CI only builds them.
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+          components: rustfmt, clippy
+      - name: cargo fmt (fuzz)
+        run: cargo fmt --manifest-path fuzz/Cargo.toml --all -- --check
+      - name: cargo check (fuzz)
+        run: cargo check --locked --manifest-path fuzz/Cargo.toml --all-targets
+      - name: cargo clippy (fuzz)
+        run: cargo clippy --locked --manifest-path fuzz/Cargo.toml --all-targets -- -D warnings
+      - name: cargo test (fuzz)
+        run: cargo test --locked --manifest-path fuzz/Cargo.toml
+
+  package:
+    name: Package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ env.RUST_TOOLCHAIN }}
+      - name: cargo publish (dry run)
+        run: cargo publish --dry-run --locked
+      - name: cargo package
+        run: cargo package --locked
+      - name: The packaged files
+        run: cargo package --locked --list
+      - name: Build and test the unpacked crate
+        run: |
+          mkdir -p target/pkgcheck
+          tar xzf target/package/molangx-*.crate -C target/pkgcheck
+          cd target/pkgcheck/molangx-*/
+          cargo build --all-features --examples
+          cargo test --doc --all-features
+
+  docsrs:
+    name: Documentation (docs.rs flags)
+    runs-on: ubuntu-latest
+    # docs.rs builds with nightly; a nightly regression must not block a merge.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@nightly
+      - name: cargo doc (docsrs)
+        run: cargo doc --no-deps --all-features
+        env:
+          RUSTDOCFLAGS: "-D warnings --cfg docsrs"

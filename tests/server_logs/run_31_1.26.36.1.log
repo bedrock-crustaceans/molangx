@@ -1,0 +1,113 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-03 07:43:17:750 INFO] Starting Server
+[2026-10-03 07:43:17:750 INFO] Version: 1.26.36.1
+[2026-10-03 07:43:17:750 INFO] Session ID: 97d348e7-49f1-40a9-99df-ef7a5e3e9bad
+[2026-10-03 07:43:17:750 INFO] Build ID: 48444137
+[2026-10-03 07:43:17:750 INFO] Branch: r/26_u3
+[2026-10-03 07:43:17:750 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-03 07:43:17:750 INFO] Configuration: Publish
+[2026-10-03 07:43:17:750 INFO] Level Name: probe4_run30
+[2026-10-03 07:43:17:751 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-03 07:43:17:751 INFO] Game mode: 0 Survival
+[2026-10-03 07:43:17:751 INFO] Difficulty: 1 EASY
+[2026-10-03 07:43:17:751 INFO] Content logging to console is enabled.
+[2026-10-03 07:43:17:753 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-03 07:43:18:384 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-03_07-43-18
+[2026-10-03 07:43:18:387 INFO] Opening level 'worlds/probe4_run30/db'
+[2026-10-03 07:43:18:404 INFO] Pack Stack - [00] probe (id: 6fdf24e8-60f6-4eab-8fd9-d82d3fbd8809, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-03 07:43:18:557 ERROR] [Molang] probe4_run30 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | for_each(1, v.a, 1); v.t07_ran; | Error: for_each requires three parameters - a variable to represent an element of an array, an expression resulting in an array, and an expression to run per element of that array.
+
+[2026-10-03 07:43:18:557 ERROR] [Molang] probe4_run30 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.x ? break : 1 | Error: unreachable statements after Break 'break'.
+
+[2026-10-03 07:43:18:557 ERROR] [Molang] probe4_run30 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.r = q.head_is_in_water; v.r == 0 ? v.t10_resolves_0 : (v.r == 1 ? v.t10_resolves_1 : v.t10_resolves_other); | Failed to resolve query query.head_is_in_water.  Either the query does not exist or it is not supported in this context.
+
+[2026-10-03 07:43:18:557 ERROR] [Molang] probe4_run30 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.r = q.head_is_in_water; v.r == 0 ? v.t10_resolves_0 : (v.r == 1 ? v.t10_resolves_1 : v.t10_resolves_other); | unrecognized token: q.head_is_in_water; v.r == 0 ? v.t10_resolves_0 : (v.r == 1 ? v.t10_resolves_1 : v.t10_resolves_other);
+
+[2026-10-03 07:43:18:557 ERROR] [Molang] probe4_run30 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.r = q.has_any_biome_tags('plains'); v.t11_ran; | Failed to resolve query query.has_any_biome_tags.  Either the query does not exist or it is not supported in this context.
+
+[2026-10-03 07:43:18:557 ERROR] [Molang] probe4_run30 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.r = q.has_any_biome_tags('plains'); v.t11_ran; | unrecognized token: q.has_any_biome_tags('plains'); v.t11_ran;
+
+[2026-10-03 07:43:18:557 ERROR] [Molang] probe4_run30 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.r = q.has_all_biome_tags('plains'); v.t12_ran; | Failed to resolve query query.has_all_biome_tags.  Either the query does not exist or it is not supported in this context.
+
+[2026-10-03 07:43:18:557 ERROR] [Molang] probe4_run30 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.r = q.has_all_biome_tags('plains'); v.t12_ran; | unrecognized token: q.has_all_biome_tags('plains'); v.t12_ran;
+
+[2026-10-03 07:43:19:483 INFO] IPv4 supported, port: 29142: Used for gameplay
+[2026-10-03 07:43:19:483 INFO] IPv6 supported, port: 29143: Used for gameplay
+[2026-10-03 07:43:19:528 INFO] Server started.
+[2026-10-03 07:43:19:528 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-03 07:43:19:528 INFO] Server Telemetry is currently not enabled. 
+[2026-10-03 07:43:19:528 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-03 07:43:19:528 INFO] 
+[2026-10-03 07:43:19:528 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-03 07:43:19:528 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-03 07:43:19:528 INFO] ======================================================
+[2026-10-03 07:43:21:988 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-03 07:43:24:738 INFO] Object successfully summoned
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t01_rt_neg_fold_pos'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t02_rt_neg_fold_pos'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t03_zero_scale_drops_offsets'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t04_three'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t05_four'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t06_a1_y0'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t08m_marker'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t09_struct_replaces_float'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t13_setup'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t14_1'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t15_1'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t16_0'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t17_1'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t18_m1'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t19_0'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t20_5'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t21_0'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t22_1'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t23_1'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t24_10'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t25_0'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t26_1'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t27_2'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t28_1'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t29_half'
+
+[2026-10-03 07:43:24:748 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.t30_2'
+
+[2026-10-03 07:43:32:752 INFO] Server stop requested.
+[2026-10-03 07:43:32:800 INFO] Stopping server...
+Quit correctly

@@ -1,0 +1,73 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-01 17:14:15:994 INFO] Starting Server
+[2026-10-01 17:14:15:994 INFO] Version: 1.26.36.1
+[2026-10-01 17:14:15:994 INFO] Session ID: d9e56429-f306-4a74-9e5b-ee1ed2aa8fd6
+[2026-10-01 17:14:15:994 INFO] Build ID: 48444137
+[2026-10-01 17:14:15:994 INFO] Branch: r/26_u3
+[2026-10-01 17:14:15:994 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-01 17:14:15:994 INFO] Configuration: Publish
+[2026-10-01 17:14:15:994 INFO] Level Name: probe2_run3
+[2026-10-01 17:14:15:995 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-01 17:14:15:995 INFO] Game mode: 0 Survival
+[2026-10-01 17:14:15:995 INFO] Difficulty: 1 EASY
+[2026-10-01 17:14:15:996 INFO] Content logging to console is enabled.
+[2026-10-01 17:14:15:997 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-01 17:14:16:365 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-01_17-14-16
+[2026-10-01 17:14:16:365 INFO] Opening level 'worlds/probe2_run3/db'
+[2026-10-01 17:14:16:377 INFO] Pack Stack - [00] probe (id: c7777bf2-7bd9-4b75-8aa3-6b6f260ba4fe, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-01 17:14:17:012 INFO] IPv4 supported, port: 29132: Used for gameplay
+[2026-10-01 17:14:17:012 INFO] IPv6 supported, port: 29133: Used for gameplay
+[2026-10-01 17:14:17:042 INFO] Server started.
+[2026-10-01 17:14:17:042 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-01 17:14:17:042 INFO] Server Telemetry is currently not enabled. 
+[2026-10-01 17:14:17:042 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-01 17:14:17:042 INFO] 
+[2026-10-01 17:14:17:042 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-01 17:14:17:042 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-01 17:14:17:042 INFO] ======================================================
+[2026-10-01 17:14:17:456 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-01 17:14:19:502 INFO] Object successfully summoned
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o01_is0'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o02_is0'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o03_is9'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o04_is0_merged_first'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o05_is4_merged_first'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o06_is8_merged_first'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o07_is0_merged_first'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o08_is1_flattened'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o09_is1_flattened'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o10_is1_flattened'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o11_is1_flattened'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o12_is2'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o13_is10_x2'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o14_is7_x2'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o15_is5'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o16_is2_x2'
+
+[2026-10-01 17:14:19:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.o99_marker_end'
+
+[2026-10-01 17:14:24:767 INFO] Server stop requested.
+[2026-10-01 17:14:24:816 INFO] Stopping server...
+Quit correctly

@@ -1,0 +1,41 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-03 07:59:37:470 INFO] Starting Server
+[2026-10-03 07:59:37:470 INFO] Version: 1.26.36.1
+[2026-10-03 07:59:37:470 INFO] Session ID: 9e70053d-36b3-4561-832f-ca008c2ce89d
+[2026-10-03 07:59:37:470 INFO] Build ID: 48444137
+[2026-10-03 07:59:37:470 INFO] Branch: r/26_u3
+[2026-10-03 07:59:37:470 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-03 07:59:37:470 INFO] Configuration: Publish
+[2026-10-03 07:59:37:470 INFO] Level Name: probe4_run45
+[2026-10-03 07:59:37:472 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-03 07:59:37:472 INFO] Game mode: 0 Survival
+[2026-10-03 07:59:37:472 INFO] Difficulty: 1 EASY
+[2026-10-03 07:59:37:473 INFO] Content logging to console is enabled.
+[2026-10-03 07:59:37:475 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-03 07:59:38:112 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-03_07-59-38
+[2026-10-03 07:59:38:113 INFO] Opening level 'worlds/probe4_run45/db'
+[2026-10-03 07:59:38:133 INFO] Pack Stack - [00] probe (id: 5669c9bf-7019-498e-b0b9-db31401640d1, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-03 07:59:38:291 ERROR] [Animation] probe4_run45 | development_behavior_packs/probe_bp/animation_controllers/probe.json | Error: ill-formatted/missing "format_version" field. Skipping.
+
+[2026-10-03 07:59:39:152 INFO] IPv4 supported, port: 29142: Used for gameplay
+[2026-10-03 07:59:39:152 INFO] IPv6 supported, port: 29143: Used for gameplay
+[2026-10-03 07:59:39:196 INFO] Server started.
+[2026-10-03 07:59:39:196 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-03 07:59:39:196 INFO] Server Telemetry is currently not enabled. 
+[2026-10-03 07:59:39:196 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-03 07:59:39:196 INFO] 
+[2026-10-03 07:59:39:196 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-03 07:59:39:196 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-03 07:59:39:196 INFO] ======================================================
+[2026-10-03 07:59:41:739 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-03 07:59:44:410 INFO] Object successfully summoned
+[2026-10-03 07:59:52:419 INFO] Server stop requested.
+[2026-10-03 07:59:52:468 INFO] Stopping server...
+Quit correctly

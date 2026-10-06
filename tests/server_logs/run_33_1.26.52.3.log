@@ -1,0 +1,68 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-03 07:48:12:306 INFO] Starting Server
+[2026-10-03 07:48:12:306 INFO] Version: 1.26.52.3
+[2026-10-03 07:48:12:306 INFO] Session ID: ddebfa53-f6f1-415d-8f3d-a0aa77457a26
+[2026-10-03 07:48:12:306 INFO] Build ID: 51798919
+[2026-10-03 07:48:12:306 INFO] Branch: r/26_u5
+[2026-10-03 07:48:12:306 INFO] Commit ID: 54116bb5ee0b7aee0b5591efbcc8bc3cf64f168a
+[2026-10-03 07:48:12:306 INFO] Configuration: Publish
+[2026-10-03 07:48:12:306 INFO] Contents of server.properties: {}
+[2026-10-03 07:48:12:306 INFO] Level Name: probe4_run32
+[2026-10-03 07:48:12:306 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-10-03 07:48:12:309 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-03 07:48:12:309 INFO] Game mode: 0 Survival
+[2026-10-03 07:48:12:309 INFO] Difficulty: 1 EASY
+[2026-10-03 07:48:12:315 INFO] Content logging to console is enabled.
+[2026-10-03 07:48:12:318 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-03 07:48:13:181 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-03_07-48-13
+[2026-10-03 07:48:13:183 INFO] Opening level 'worlds/probe4_run32/db'
+[2026-10-03 07:48:13:225 INFO] Pack Stack - [00] probe (id: fdfe1c77-21ff-4aab-80a1-a9ee109dfca7, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-03 07:48:13:489 INFO] Signed in to signaling service successfully
+[2026-10-03 07:48:13:505 ERROR] [Molang] probe4_run32 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.g = 0; v.b = 0; loop(1, { v.g = v.g + 1; v.g > 8 ? {return 0;} : 0; v.b = (v.r1_c_never ?? {break;}) ?? 2; }); v.r1_never_set; | Error: found left-hand-side of ?? expression that isn't a direct-variable reference - this is unsupported at this time.
+
+[2026-10-03 07:48:14:571 INFO] IPv4 supported, port: 29142: Used for gameplay
+[2026-10-03 07:48:14:571 INFO] IPv6 supported, port: 29143: Used for gameplay
+[2026-10-03 07:48:14:626 INFO] Server started.
+[2026-10-03 07:48:14:626 ERROR] ================ TRANSPORT TYPE ERROR  ===================
+[2026-10-03 07:48:14:626 ERROR] Your current connection type is not set to NetherNet. In this release, NetherNet is the only supported transport type.
+[2026-10-03 07:48:14:626 ERROR] Players will not be able to connect to your game without NetherNet.
+[2026-10-03 07:48:14:626 ERROR] 
+[2026-10-03 07:48:14:626 ERROR] To switch, set 'transport=nethernet' in server.properties.
+[2026-10-03 07:48:14:626 ERROR] 
+[2026-10-03 07:48:14:626 ERROR] For more information, please reference the included bedrock_server_how_to.html file.
+[2026-10-03 07:48:14:626 ERROR] =======================================================
+[2026-10-03 07:48:14:626 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-03 07:48:14:626 INFO] Server Telemetry is currently not enabled. 
+[2026-10-03 07:48:14:626 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-03 07:48:14:626 INFO] 
+[2026-10-03 07:48:14:626 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-03 07:48:14:626 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-03 07:48:14:626 INFO] ======================================================
+[2026-10-03 07:48:17:426 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-03 07:48:20:289 INFO] Object successfully summoned
+[2026-10-03 07:48:20:383 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-03 07:48:20:383 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-03 07:48:20:383 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-03 07:48:20:449 INFO] Package: com.mojang.minecraft.dedicatedserver
+Version: 1.26.52.3
+OS: Linux
+Server start: 2026-10-03 07:48:12 CEST
+Dmp timestamp: 2026-10-03 07:48:20 CEST
+Upload Date: 2026-10-03 07:48:20 CEST
+Session ID: ddebfa53-f6f1-415d-8f3d-a0aa77457a26
+Commit hash: 54116bb5ee0b7aee0b5591efbcc8bc3cf64f168a
+Build id: 51798919
+CrashReporter Key: 8c4937c1-64cb-3532-a8dc-1deb28f67293
+
+Crash
+[2026-10-03 07:48:20:449 INFO] 

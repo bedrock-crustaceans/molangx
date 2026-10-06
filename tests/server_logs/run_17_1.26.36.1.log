@@ -1,0 +1,99 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-01 18:17:19:982 INFO] Starting Server
+[2026-10-01 18:17:19:982 INFO] Version: 1.26.36.1
+[2026-10-01 18:17:19:982 INFO] Session ID: eddef982-7401-44ac-85c6-e4bdce802f20
+[2026-10-01 18:17:19:982 INFO] Build ID: 48444137
+[2026-10-01 18:17:19:982 INFO] Branch: r/26_u3
+[2026-10-01 18:17:19:982 INFO] Commit ID: 2936c1ea81a89d5f0046708f83fe9c552210dd04
+[2026-10-01 18:17:19:982 INFO] Configuration: Publish
+[2026-10-01 18:17:19:982 INFO] Level Name: probe3_run10
+[2026-10-01 18:17:19:983 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-01 18:17:19:983 INFO] Game mode: 0 Survival
+[2026-10-01 18:17:19:983 INFO] Difficulty: 1 EASY
+[2026-10-01 18:17:19:984 INFO] Content logging to console is enabled.
+[2026-10-01 18:17:19:985 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-01 18:17:20:369 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-01_18-17-20
+[2026-10-01 18:17:20:370 INFO] Opening level 'worlds/probe3_run10/db'
+[2026-10-01 18:17:20:382 INFO] Pack Stack - [00] probe (id: b6ab7913-8ae1-4714-89bc-bdbded5ea517, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-01 18:17:20:488 ERROR] [Molang] probe3_run10 | development_behavior_packs/probe_bp/animation_controllers/probe.json | animation_controllers | controller.animation.probe | states | default | on_entry | v.g87 = 'a' + 1; v.x87_literal_strplus_loaded; | 'Add '+'' expression cannot take a 'String '''' argument. It only supports numerical arguments.
+
+[2026-10-01 18:17:21:040 INFO] IPv4 supported, port: 29132: Used for gameplay
+[2026-10-01 18:17:21:040 INFO] IPv6 supported, port: 29133: Used for gameplay
+[2026-10-01 18:17:21:071 INFO] Server started.
+[2026-10-01 18:17:21:071 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-01 18:17:21:071 INFO] Server Telemetry is currently not enabled. 
+[2026-10-01 18:17:21:071 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-01 18:17:21:071 INFO] 
+[2026-10-01 18:17:21:071 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-01 18:17:21:071 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-01 18:17:21:071 INFO] ======================================================
+[2026-10-01 18:17:22:656 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-01 18:17:27:482 INFO] Object successfully summoned
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x27_empty_eq0'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x27n_empty_eq0'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x29_zero_eq_empty'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x29n_zero_eq_empty'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x29v_empty_eq_zero'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x29w_zero_eq_empty'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x80_strmul_hashbits'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x28_hash_eq_float'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x28r_float_ne_hash'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x28n_hash_eq_float'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x81_str_ne_one'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x81c_str_ne_one'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x82_ab_ne_aa_eq'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x83_str_a_true'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x84_str_empty_false'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x85_strplus_negtiny'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x86_strplus1_is1'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x18k_detector_negzero'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x18_andfold_poszero'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x18o_orfold_poszero'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x18r_and_poszero'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x18s_or_poszero'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x19_maxcf_is4'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x19b_mincf_is4'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x19c_maxcf_is4'
+
+[2026-10-01 18:17:27:512 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.x19d_mincf_is4'
+
+[2026-10-01 18:17:34:496 INFO] Server stop requested.
+[2026-10-01 18:17:34:542 INFO] Stopping server...
+Quit correctly

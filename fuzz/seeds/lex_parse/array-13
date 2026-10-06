@@ -1,0 +1,1 @@
+array.skins[math.mod(v.i, 3)]

@@ -1,0 +1,546 @@
+NO LOG FILE! - setting up server logging...
+[2026-10-03 07:42:41:315 INFO] Starting Server
+[2026-10-03 07:42:41:315 INFO] Version: 1.26.52.3
+[2026-10-03 07:42:41:315 INFO] Session ID: de39ccaa-4b2d-4fce-b02c-ede977b47537
+[2026-10-03 07:42:41:315 INFO] Build ID: 51798919
+[2026-10-03 07:42:41:315 INFO] Branch: r/26_u5
+[2026-10-03 07:42:41:315 INFO] Commit ID: 54116bb5ee0b7aee0b5591efbcc8bc3cf64f168a
+[2026-10-03 07:42:41:315 INFO] Configuration: Publish
+[2026-10-03 07:42:41:316 INFO] Contents of server.properties: {}
+[2026-10-03 07:42:41:316 INFO] Level Name: probe4_run61
+[2026-10-03 07:42:41:316 INFO] Profiler config ('bootstrap.json') load result: success=1, errorMessage=(null)
+[2026-10-03 07:42:41:317 INFO] No CDN config file found at: cdn_config.json for dedicated server
+[2026-10-03 07:42:41:317 INFO] Game mode: 0 Survival
+[2026-10-03 07:42:41:317 INFO] Difficulty: 1 EASY
+[2026-10-03 07:42:41:319 INFO] Content logging to console is enabled.
+[2026-10-03 07:42:41:321 INFO] 
+
+#####################################################
+#                                                   #
+#              CREATING VANILLA WORLD               #
+#                                                   #
+#####################################################
+[2026-10-03 07:42:41:986 INFO] Content logging to disk is enabled. Writing log to: ContentLog2026-10-03_07-42-41
+[2026-10-03 07:42:41:987 INFO] Opening level 'worlds/probe4_run61/db'
+[2026-10-03 07:42:42:035 INFO] Pack Stack - [00] probe (id: 0c9ec6e3-119c-4b64-b532-09dca4add06b, version: 1.0.0) @ development_behavior_packs/probe_bp
+[2026-10-03 07:42:42:291 INFO] Signed in to signaling service successfully
+[2026-10-03 07:42:43:344 INFO] IPv4 supported, port: 29142: Used for gameplay
+[2026-10-03 07:42:43:344 INFO] IPv6 supported, port: 29143: Used for gameplay
+[2026-10-03 07:42:43:393 INFO] Server started.
+[2026-10-03 07:42:43:393 ERROR] ================ TRANSPORT TYPE ERROR  ===================
+[2026-10-03 07:42:43:393 ERROR] Your current connection type is not set to NetherNet. In this release, NetherNet is the only supported transport type.
+[2026-10-03 07:42:43:393 ERROR] Players will not be able to connect to your game without NetherNet.
+[2026-10-03 07:42:43:393 ERROR] 
+[2026-10-03 07:42:43:393 ERROR] To switch, set 'transport=nethernet' in server.properties.
+[2026-10-03 07:42:43:393 ERROR] 
+[2026-10-03 07:42:43:393 ERROR] For more information, please reference the included bedrock_server_how_to.html file.
+[2026-10-03 07:42:43:393 ERROR] =======================================================
+[2026-10-03 07:42:43:393 INFO] ================ TELEMETRY MESSAGE ===================
+[2026-10-03 07:42:43:393 INFO] Server Telemetry is currently not enabled. 
+[2026-10-03 07:42:43:393 INFO] Enabling this telemetry helps us improve the game.
+[2026-10-03 07:42:43:393 INFO] 
+[2026-10-03 07:42:43:393 INFO] To enable this feature, add the line 'emit-server-telemetry=true'
+[2026-10-03 07:42:43:393 INFO] to the server.properties file in the handheld/src-server directory
+[2026-10-03 07:42:43:393 INFO] ======================================================
+[2026-10-03 07:42:46:498 INFO] Added ticking area centered at 8, 0, 8 with a radius of 1 chunks.
+1/10 ticking areas in use.
+[2026-10-03 07:42:49:306 INFO] Object successfully summoned
+[2026-10-03 07:42:49:350 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r18_sign0_is1'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r01_maxnanfirst_is4'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.r02_maxnansecond_isnan'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.s00_setup_done'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0000_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0001_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0002_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0003_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0004_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0005_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0006_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0007_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0008_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0009_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0010_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0011_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0012_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0013_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0014_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0015_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0016_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0017_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0018_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0019_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0020_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0021_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0022_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0023_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0024_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0025_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0026_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0027_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0028_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0029_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0030_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0031_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0032_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0033_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0034_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0035_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0036_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0037_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0038_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0039_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0040_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0041_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0042_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0043_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0044_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0045_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0046_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0047_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0048_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0049_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0050_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0051_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0052_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0053_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0054_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0055_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0056_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0057_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0058_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0059_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0060_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0061_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0062_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0063_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0064_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0065_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0066_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0067_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0068_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0069_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0070_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0071_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0072_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0073_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0074_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0075_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0076_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0077_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0078_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0079_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0080_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0081_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0082_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0083_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0084_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0085_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0086_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0087_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0088_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0089_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0090_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0091_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0092_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0093_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0094_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0095_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0096_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0097_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0098_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0099_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0100_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0101_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0102_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0103_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0104_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0105_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0106_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0107_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0108_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0109_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0110_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0111_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0112_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0113_nanp'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0114_nann'
+
+[2026-10-03 07:42:49:351 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0115_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0116_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0117_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0118_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0119_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0120_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0121_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0122_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0123_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0124_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0125_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0126_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0127_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0128_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0129_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0130_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0131_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0132_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0133_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0134_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0135_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0136_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0137_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0138_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0139_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0140_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0141_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0142_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0143_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0144_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0145_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0146_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0147_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0148_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0149_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0150_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0151_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0152_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0153_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0154_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0155_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0156_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0157_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0158_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0159_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0160_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0161_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0162_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0163_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0164_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0165_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0166_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0167_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0168_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0169_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0170_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0171_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0172_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0173_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0174_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0175_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0176_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0177_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0178_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0179_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0180_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0181_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0182_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0183_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0184_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0185_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0186_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0187_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0188_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0189_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0190_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0191_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0192_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0193_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0194_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0195_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0196_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0197_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0198_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0199_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0200_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0201_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0202_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0203_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0204_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0205_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0206_nanp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0207_ninf'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0208_pinf'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0209_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0210_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0211_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0212_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0213_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0214_nann'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0215_ninf'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0216_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0217_ninf'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0218_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0219_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0220_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0221_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0222_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0223_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0224_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0225_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0226_eqn'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0227_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0228_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0229_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0230_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0231_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0232_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0233_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0234_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0235_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0236_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0237_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0238_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0239_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0240_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0241_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0242_eqp'
+
+[2026-10-03 07:42:49:352 ERROR] [Molang] Error: unhandled request for unknown variable 'variable.u0243_eqp'
+
+[2026-10-03 07:42:57:270 INFO] Server stop requested.
+[2026-10-03 07:42:57:316 INFO] Stopping server...
+Quit correctly
