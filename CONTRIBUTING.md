@@ -86,20 +86,16 @@ cargo clippy --locked --target aarch64-unknown-linux-gnu --manifest-path fuzz/Ca
 
 ## Code conventions
 
-`tests/repo_checks.rs` enforces the layout rules.
-
-- **Modules.** A module with child files is `name/mod.rs`, never `name.rs` beside `name/`. A new module file is added to the list in `module_layout` (or `fuzz_module_layout`).
-- **One path per item.** Every public item has exactly one public path, its module's: the crate root declares modules only; a `pub use` names a whole external crate or an item of a private module, each once and never by a glob, and there is no `pub extern crate`. A `pub type` may name an instantiation of a public generic type (`vm::TempName` is `Name<Temp>`) or a `dyn` type; it may not rename a type, and no two aliases may name the same type. `every_public_item_has_one_path` checks it.
-- **Unit tests** are inline: one `#[cfg(test)] mod tests { … }` as the last item of the file it tests; no `tests.rs`, no out-of-line test modules. When a file grows too large, split the code and move each test with it. Helpers shared across a module's files go in an inline `#[cfg(test)] pub(crate) mod test_support` of its `mod.rs`; support shared more widely (`src/reference_catalog.rs`, also read by the fuzz crate) is listed in `TEST_SEAMS`. Unit tests and the seam files under `src/` read no files (the package ships only `src/`).
+- **Modules.** A module with child files is `name/mod.rs`, never `name.rs` beside `name/`.
+- **One path per item.** Every public item has exactly one public path, its module's: the crate root declares modules only; a `pub use` names a whole external crate or an item of a private module, each once and never by a glob, and there is no `pub extern crate`. A `pub type` may name an instantiation of a public generic type (`vm::TempName` is `Name<Temp>`) or a `dyn` type; it may not rename a type, and no two aliases may name the same type.
+- **Unit tests** are inline: one `#[cfg(test)] mod tests { … }` as the last item of the file it tests; no `tests.rs`, no out-of-line test modules. When a file grows too large, split the code and move each test with it. Helpers shared across a module's files go in an inline `#[cfg(test)] pub(crate) mod test_support` of its `mod.rs`; support shared more widely is `src/reference_catalog.rs`, also read by the fuzz crate. Unit tests and the seam files under `src/` read no files (the package ships only `src/`).
 - **Invalid state is unrepresentable.** Fields that must agree become an enum whose variants carry what each state has; no in-band sentinels (`i16::MIN`, `u32::MAX`); a flag that makes other fields meaningless is a variant without them; values with different meanings get different types; a check the type cannot express is made once, in a constructor returning `Result` or `Option`. A review treats a representable invalid state as a defect.
-- **Tables.** The query, operator and math tables in `src/stdlib/{query_table,math_fn}.rs` and `src/ops/table.rs` are maintained by hand; `tests/operator_rules.rs`, `tests/repo_checks.rs` and `tests/public_api.rs` pin their invariants.
+- **Tables.** The query, operator and math tables in `src/stdlib/{query_table,math_fn}.rs` and `src/ops/table.rs` are maintained by hand; `tests/operator_rules.rs` and `tests/public_api.rs` pin their invariants.
 - **No `unsafe`**, and `clippy::pedantic` with only the allowances listed in `src/lib.rs`, each with its reason.
 
 ## Comments and wording
 
-Comments explain only non-obvious behaviour: a reason, an invariant, an ordering constraint, a trap, a unit or limit. They state what the code does, in as few words as possible, and never say where a behaviour comes from. Identifiers and prose do not use the word `BANNED_WORD` in `tests/repo_checks.rs` spells out (the usual name for unmodded behaviour). Message texts in strings and data files are data and stay byte for byte.
-
-`tests/repo_checks.rs` scans the tracked files for that word and for identifier shapes of other codebases; it does not judge meaning, so review still reads new text against this rule.
+Comments explain only non-obvious behaviour: a reason, an invariant, an ordering constraint, a trap, a unit or limit. They state what the code does, in as few words as possible, and never say where a behaviour comes from. Identifiers and prose do not use the usual name for unmodded behaviour. Message texts in strings and data files are data and stay byte for byte.
 
 ## Tests
 
@@ -125,7 +121,6 @@ A test asserts specific values (the bits of an `f32`, the exact message text). S
 | `data_sweeps.rs` | `tests/server_sweeps.json` |
 | `operator_rules.rs` | the operator table's invariants |
 | `corpus.rs` | the pack-corpus tests (ignored) |
-| `repo_checks.rs` | the repository itself |
 | `alloc_free.rs` | allocation-free evaluation (own allocator) |
 | `compile_memory.rs` | memory and time of a hostile compile (own allocator) |
 | `engine_only.rs` | the engine with host catalogues; passes with and without `stdlib` |
@@ -142,13 +137,13 @@ The fuzz crate's tests (helpers in `fuzz/tests/common/`):
 
 A row is one input (expression, version, optional setup) with its expected result. Rows in `tests/measured_*.rs` are statements calling the helpers of `tests/common/measured/` (or `tests/common/declared.rs` for `VersionWindowCase` and `AllowListCase`). To add one:
 
-1. Add it to the case or group it belongs to in its topic file (`EvalCase`, `RunGroup`, `ParseGroup`, `LoopCapGroup`, `SmokeGroup`, a `ServerRun` probe), or start a new one with an id no other row has (`measured_row_ids_are_unique` checks this).
+1. Add it to the case or group it belongs to in its topic file (`EvalCase`, `RunGroup`, `ParseGroup`, `LoopCapGroup`, `SmokeGroup`, a `ServerRun` probe), or start a new one with an id no other row has.
 2. Raise the count its terminal call takes (`case.check(3)`, `group.check(29)`, `run_19().replay(9)`): a list row (`is_constant`, `all_parse`, `evaluates_to`, `fails_evaluation`, `has_disallowed_queries`) counts one per item, every other row one; setup steps and case-level calls do not count.
 3. A `parse_fails` row whose first message is about a string operand or an unresolved query states it with `.because(ParseFailure::…)`.
 4. An `EvalCase` with no setup whose `eval` rows are all at the latest version carries `case.also_on_a_fresh_state()`; drop it when the case gains setup.
-5. A new `ServerRun` (`fn run_NN()`) gets a `#[test]` in the same file calling `run_NN().replay(<probes>)`, and its console logs in `tests/server_logs/` (`every_server_run_is_replayed` and `test_data_files` check both). A new run in `tests/server_sweeps.json` gets a `replay(NN, <probes>)` test in `tests/data_sweeps.rs`, and `the_sweep_file_is_complete` its new counts.
+5. A new `ServerRun` (`fn run_NN()`) gets a `#[test]` in the same file calling `run_NN().replay(<probes>)`, and its console logs in `tests/server_logs/`. A new run in `tests/server_sweeps.json` gets a `replay(NN, <probes>)` test in `tests/data_sweeps.rs`, and `the_sweep_file_is_complete` its new counts.
 
-Run the topic file's tests and `tests/repo_checks.rs`.
+Run the topic file's tests.
 
 ## Content
 

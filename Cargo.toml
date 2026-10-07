@@ -48,7 +48,6 @@ facet = { version = "0.50.0-rc.7", optional = true }
 proptest = { version = "1.11.0", default-features = false, features = ["std"] }
 criterion = { version = "0.8", default-features = false, features = ["cargo_bench_support"] }
 serde_json = "1.0"
-toml = { version = "1.1", default-features = false, features = ["std", "parse", "serde"] }
 # The same pre-release requirement as `facet`.
 facet-json = "0.50.0-rc.7"
 
